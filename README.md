@@ -3,7 +3,7 @@
 # Project Part 1 
 
 ### Canvas Group Team Formation
-> Each member has joined the team on Canvas with exception of Uriel Benitez because he doest not have an account on Canvas
+> Each member has joined the team on Canvas with exception of Uriel Benitez because he doest not have an account on Canvas,
 
 ### Team Name & Discord Channel 
 > Our team name is: CUZY (first initial of each team member)
