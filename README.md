@@ -9,8 +9,9 @@
 > - Our team name is: CUZY (first initial of each team member)
 > - Community/Public Discord Channel: https://discord.com/channels/1033069280767529081/1033069280767529084
 
-### GitHub Rep
-> The team Readme file can be found here: https://github.com/syedyasirkamal/agileproject#readme
+### GitHub Repository
+> - The Project GitHub Repo can be found here: https://github.com/syedyasirkamal/agileproject
+> - The Project Readme file can be found here: https://github.com/syedyasirkamal/agileproject#readme
 
 ### Team Name & Roster
 > Our team name is: CUZY (first initial of each team member)
