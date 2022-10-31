@@ -68,7 +68,7 @@ Each PBI has been accurately estimated as per the methodology mentioned later.
 ### Whole Team Relative Size Estimating
 > We played Planning Poker to estimate story points for each product backlog item. The Scrum  Master (Uriel) facilitated the game and PBIs were estimated as story points using the Fibonacci sequence scale, with an upper limit of 8 story points. In addition, we used an Estimation Board with input from the whole team to move one of the items around to ensure better relativity. 
 
-### Developers-only estimating
+### Developers-Only Estimating
 > Only the developers (Yasir and Zhao) took part in Planning Poker for estimation. 
 
 
