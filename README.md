@@ -51,7 +51,7 @@
 > The Product Backlog includes 12 PBIs listed in the Trello Product Backlog link above.
 
 ### User Stories
-> User Stories have been created for each PBI. The are included Product Backlog Items cards in the link above.
+> User Stories have been created for each PBI. They are included Product Backlog Items cards in the link above.
 
 ### Product Backlog Order
 > The product backlog has been ordered. The rationale we used was two-fold: First, we considered the sequential development of the application from a technology perspective. Second, we took into account the value added of each specific PBI. For example, we had to register a web domain before we can actually start designing the website since the site needs to reference graphics and hyperlinks that will be based on/include the domain name. 
