@@ -104,13 +104,21 @@
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
 
 ### Daily Scrums - Last 24 Hours
-> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
 
 ### Daily Scrums - Next 24 Hours 
-> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
 
 ### Daily Scrums - Impediments 
-> During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
+> During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan: CREATE LIST BELOW
+
+### Burndown Chart - Updates 
+> During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. INSERT TWO IMAGES SHOWING BURNDOWN CHART BEING UPDATED
+
+### Paired / Mobbed Programming
+> Our team engaged in Paired Programming. INSERT EVIDENCE, 1 POINT PER TEAM MEMBER WHO PARTICIPATED
+
+
 
 
 
