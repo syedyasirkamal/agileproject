@@ -77,6 +77,28 @@
 ### Developers-Only Estimating
 > Only the developers (Yasir and Zhao) took part in Planning Poker for estimation. 
 
+# Project Part 2
 
- 
+### Forecast
+> The Forecast....
+
+### Rationale Forecast
+> The rationale for the forecast is as follows:
+
+### Pull Stories Into Sprint Backlog
+> Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog (EVIDENCE OF THIS?).
+
+### Right Size User Stories
+> Our forecasted velocity is X and the largest user story is estimated at 5 story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
+
+### Developer Tasks
+> User stories have been decomposed into Developer Tasks. The tasks are listed as checklist items in the User Story card within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+
+### Kanban Board
+> The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
+
+### Forecast
+
+
+### Forecast
 ```
