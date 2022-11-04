@@ -104,7 +104,7 @@
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
 
 ### Daily Scrums - Last 24 Hours
-> Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
+> During each of our Daily Scrums, the developers answered the question. 
 
 ### Daily Scrums - Next 24 Hours 
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
