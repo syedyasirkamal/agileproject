@@ -121,6 +121,13 @@
 ### Test First
 > Our team is building our product test-first. Evidence of at least 10 micro-scale unit tests in the test suite and they all pass. INSERT EVIDENCE, EITHER SCREENSHOTS OF PASSES OF ALL 10 OR A REFERENCE TO THE SOURCE CODE REPOSITORY
 
+### Sprint Review
+> Our team conducted a Sprint Review. INSERT EVIDENCE?
+
+### 
+
+### Sprint Review - Stakeholder
+> One stakeholder attended the Sprint Review. Based on feedback from the stakeholder, we adjusted the Product Backlog. INSERT EVIDENCE THAT STAKEHOLDER WAS THERE, SCRENSHOT FROM ZOOM CALL
 
 
 
