@@ -104,6 +104,7 @@
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
 
 ### Daily Scrums - Last 24 Hours
+> During our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities each team member shared during one of our Daily Scrums:
 > -
 > -
 > -
@@ -111,6 +112,7 @@
 > - 
 
 ### Daily Scrums - Next 24 Hours
+> During our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities each team member shared during one of our Daily Scrums:
 > -
 > -
 > -
