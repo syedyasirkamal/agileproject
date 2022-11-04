@@ -151,5 +151,6 @@
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
-
+### True User Stories
+> All of the PBIs our Product Backlog, including the current Sprint Backlow, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
 ```
