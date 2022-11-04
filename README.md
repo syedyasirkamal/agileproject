@@ -105,6 +105,9 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question. 
+> 1.
+> 2.
+> 
 
 ### Daily Scrums - Next 24 Hours 
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
