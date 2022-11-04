@@ -113,9 +113,19 @@
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
+> - 1.
+> - 2. 
+> - 3. 
+> - 4.
+> - 5. 
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan: CREATE LIST BELOW
+> - 1.
+> - 2. 
+> - 3. 
+> - 4.
+> - 5. 
 
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. INSERT TWO IMAGES SHOWING BURNDOWN CHART BEING UPDATED
