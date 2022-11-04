@@ -131,10 +131,10 @@
 > One stakeholder attended the Sprint Review. Based on feedback from the stakeholder, we adjusted the Product Backlog. INSERT EVIDENCE THAT STAKEHOLDER WAS THERE, SCRENSHOT FROM ZOOM CALL
 
 ### Sprint Retrospective
-> Our team conducted a Sprint Retrospective. 
-> One action that we identified that would make our team significantly better is: INSERT ACTION
-> Our action plan is articulated as a PBI, including User Acceptance Criteria.
-> This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
+> - Our team conducted a Sprint Retrospective. 
+> - One action that we identified that would make our team significantly better is: INSERT ACTION
+> - Our action plan is articulated as a PBI, including User Acceptance Criteria.
+> - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
 
 ```
