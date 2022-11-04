@@ -118,6 +118,9 @@
 ### Paired / Mobbed Programming
 > Our team engaged in Paired Programming. INSERT EVIDENCE, 1 POINT PER TEAM MEMBER WHO PARTICIPATED
 
+### Test First
+> Our team is building our product test-first. Evidence of at least 10 micro-scale unit tests in the test suite and they all pass. INSERT EVIDENCE, EITHER SCREENSHOTS OF PASSES OF ALL 10 OR A REFERENCE TO THE SOURCE CODE REPOSITORY
+
 
 
 
