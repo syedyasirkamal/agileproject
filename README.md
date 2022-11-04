@@ -105,6 +105,11 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
+> - 1.
+> - 2. 
+> - 3. 
+> - 4.
+> - 5. 
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
