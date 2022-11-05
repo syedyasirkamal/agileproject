@@ -77,13 +77,17 @@
 ### Developers-Only Estimating
 > Only the developers (Yasir and Zhao) took part in Planning Poker for estimation. 
 
+
+
 # Project Part 2
 
 ### Forecast
-> The Forecast....
+> The Forecast for our first sprint is 6.5 Story Points (using the Fibonacci Scale).
 
 ### Rationale Forecast
 > The rationale for the forecast is as follows:
+> - The Sprint has been timeboxed to 1 week (due to the time between Project Part 1 and Project Part 2).
+> - There is 1 Senior Developer and 1 Junior De
 
 ### Pull Stories Into Sprint Backlog
 > Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog (EVIDENCE OF THIS?).
