@@ -138,8 +138,10 @@
 
 ### Paired / Mobbed Programming
 > Our team engaged in Paired Programming:
- ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_1.jpeg)
- ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_2.jpeg)
+> 
+> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_1.jpeg)
+> 
+> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_2.jpeg)
 
 ### Test First
 > Our team is building our product test-first. Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
