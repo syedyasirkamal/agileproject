@@ -87,7 +87,10 @@
 ### Rationale Forecast
 > The rationale for the forecast is as follows:
 > - The Sprint has been timeboxed to 1 week (due to the time between Project Part 1 and Project Part 2).
-> - There is 1 Senior Developer and 1 Junior De
+> - There is 1 Senior Developer and 1 Junior Developer
+> - Each developer communicated the amount of time they have available during the Sprint and estimated how much effort they would thereby be able to take on.
+> - Our team took into account time we would need for Sprint Planning, Periodic Daily Scrums, Sprint Review, and a Team Retrospective when determining how much time would be available for coding. 
+> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learner).
 
 ### Pull Stories Into Sprint Backlog
 > Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog (EVIDENCE OF THIS?).
