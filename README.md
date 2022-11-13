@@ -106,7 +106,7 @@
 
 ### Burndown Chart
 > A Burndown Chart that meets the requirements of this assignment can be found here: 
-![](https://raw.github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%201.jpg)
+![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201.jpg)
 
 ### Daily Scrums
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
