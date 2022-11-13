@@ -149,7 +149,9 @@
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/Screenshot-TestProof.png)
 
 ### Sprint Review
-> Our team conducted a Sprint Review. INSERT EVIDENCE?
+> Our team conducted a Sprint Review. We invited a stakeholder (Spanish student, Terri) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
+> 
+> 
 
 ### Working Software
 > Our product increment is working software. The working software is a new webpage with part of the required functionality of the project. The working software is publicly accessible and can be found here: INSERT URL
