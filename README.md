@@ -111,7 +111,7 @@
 > Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
 
 ### Daily Scrums - Last 24 Hours
-> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
+> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
 > - 1. Researched how to write test cases
 > - 2. Researched email validation libaray
 > - 3. Created wireframe of our product
@@ -119,7 +119,7 @@
 > - 5. Did pair programming with another developer
 
 ### Daily Scrums - Next 24 Hours 
-> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums: CREATE LIST BELOW
+> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
 > - 1. Will figure out how to build the class for the Python testing
 > - 2. Will identify two additional tests for the email validation
 > - 3. Will generate HTML and CSS Code
@@ -128,11 +128,9 @@
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan: CREATE LIST BELOW
-> - 1.
-> - 2. 
-> - 3. 
-> - 4.
-> - 5. 
+> - 1. Yasir was not sure if we should use Python or PHP for our project. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
+> - 2. Yasir was not sure if we could use a PHP email validation library. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
+> - 3. Zhao is new to using HTML and CSS code and has technical questions about how to perform certain tasks. The plan to remove the impediment is for him to conduct research on his technical questions. If he cannot figure out the answers himself, he will schedule time with the Senior Developer (Yasir) to figure out the answers together.
 
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. INSERT TWO IMAGES SHOWING BURNDOWN CHART BEING UPDATED
