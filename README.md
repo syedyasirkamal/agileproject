@@ -93,10 +93,10 @@
 > - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learner).
 
 ### Pull Stories Into Sprint Backlog
-> Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog (EVIDENCE OF THIS?).
+> Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. We pulled stories from the top of our Product Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog.
 
 ### Right Size User Stories
-> Our forecasted velocity is X and the largest user story is estimated at 5 story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
+> Our forecasted velocity for this Sprint is 6.5 and the largest user story is estimated at 3 story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
 
 ### Developer Tasks
 > User stories have been decomposed into Developer Tasks. The tasks are listed as checklist items in the User Story card within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
