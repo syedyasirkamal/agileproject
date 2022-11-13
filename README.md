@@ -105,7 +105,6 @@
 > The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
 
 ### Burndown Chart
-> A Burndown Chart that meets the requirements of this assignment can be found here: 
 ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201.jpg)
 
 ### Daily Scrums
