@@ -99,7 +99,7 @@
 > Our forecasted velocity for this Sprint is 6.5 and the largest user story is estimated at 3 story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
 
 ### Developer Tasks
-> User stories have been decomposed into Developer Tasks. The tasks are listed as checklist items in the User Story card within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+> User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban This Trello board is publicly accessible and can be viewed by course staff.
 
 ### Kanban Board
 > The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
