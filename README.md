@@ -145,7 +145,7 @@
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201_11.9.22.jpg)
 
 ### Paired / Mobbed Programming
-> Our team engaged in Paired Programming:
+> There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
 > 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_1.jpeg)
 > 
