@@ -170,7 +170,9 @@
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Product%20Increment_Sprint%201_Landing%20Page.jpg)
 
 ### Sprint Review - Stakeholder
-> One stakeholder attended the Sprint Review. Based on feedback from the stakeholder, we adjusted the Product Backlog. INSERT EVIDENCE THAT STAKEHOLDER WAS THERE, SCRENSHOT FROM ZOOM CALL
+> One stakeholder attended the Sprint Review. The stakeholder is an existing ChidoLingo Spanish language learner (Terri). Based on feedback from the stakeholder, we revised the Product Backlog. 
+> 
+> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Sprint%20Review_11.11.22.jpeg)
 
 ### Sprint Retrospective
 > - Our team conducted a Sprint Retrospective. 
