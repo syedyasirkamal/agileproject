@@ -157,8 +157,6 @@
 > 
 > Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
 > 
-> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/tests_chidolingo_main.py)
-> 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/Screenshot-TestProof.png)
 
 ### Sprint Review
