@@ -193,9 +193,9 @@
 ### Sprint Retrospective
 > - Our team conducted a Sprint Retrospective. 
 > - One action that we identified that would make our team significantly better is to manage our team logistics better. In the previous sprint, we scheduled our meetings and Daily Scrums one by one. We will be able to manage our time and deliverables better if we plan out the days/times of all our Sprint meetings at the beginning of the Sprint.
-> - One team member is not a registered student in the class and there are certain limitations in his involvement. The team will find ways to better utilize his skills on future aspects of this project. 
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
+> - A second observation is that one team member is not a registered student in the class and there are certain limitations in his involvement. The team will find ways to better utilize his skills on future aspects of this project.
 
 ### True User Stories
 > All of the PBIs our Product Backlog, including the current Sprint Backlow, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
