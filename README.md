@@ -84,7 +84,7 @@
 ### Forecast
 > The Forecast for our first sprint is 6.5 Story Points (using the Fibonacci Scale).
 
-### Rationale Forecast
+### Rationale For Our Forecast
 > The rationale for the forecast is as follows:
 > - The Sprint has been timeboxed to 1 week (due to the time between Project Part 1 and Project Part 2).
 > - There is 1 Senior Developer and 1 Junior Developer
