@@ -113,19 +113,19 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - 1. Researched how to write test cases
-> - 2. Researched email validation libaray
-> - 3. Created wireframe of our product
-> - 4. Researched a plug in for Figma to generate HTML and CSS code
-> - 5. Did pair programming with another developer
+> - 1. Yasir: Researched how to write test cases
+> - 2. Yasir: Researched email validation libaray
+> - 3. Zhao: Created wireframe of our product
+> - 4. Zhao: Researched a plug in for Figma to generate HTML and CSS code
+> - 5. Yasir and Zhao: Did pair programming
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - 1. Will figure out how to build the class for the Python testing
-> - 2. Will identify two additional tests for the email validation
-> - 3. Will generate HTML and CSS Code
-> - 4. Will add promotional banners to the original ChidoLingo website
-> - 5. Will edit wording on the new website based on feedback from Product Owner
+> - 1. Yasir: Will figure out how to build the class for the Python testing
+> - 2. Yasir: Will identify two additional tests for the email validation
+> - 3. Zhao: Will generate HTML and CSS Code
+> - 4. Yasir: Will add promotional banners to the original ChidoLingo website
+> - 5. Zhao: Will edit wording on the new website based on feedback from Product Owner
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
