@@ -198,5 +198,5 @@
 > - A second observation is that one team member is not a registered student in the class and there are certain limitations in his involvement. The team will find ways to better utilize his skills on future aspects of this project.
 
 ### True User Stories
-> All of the PBIs our Product Backlog, including the current Sprint Backlow, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+> All of the PBIs our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
 ```
