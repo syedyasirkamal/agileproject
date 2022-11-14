@@ -162,8 +162,10 @@
 ### Test First
 > Our team is building our product test-first. The list of tests and explanations can be found at this URL: 
 > https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/tests/tests_chidolingo_main.py
+> 
 > All files related to tests can be found here: 
 > https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
+> 
 > Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
 > 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/Screenshot-TestProof.png)
