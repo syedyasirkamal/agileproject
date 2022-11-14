@@ -147,10 +147,13 @@
 ### Paired / Mobbed Programming
 > There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
 > 
+> Mob Programming
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Mob%20Programming_Sprint%201.png)
 > 
+> Pair Programming: Yasir and Zhao 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_2.jpeg)
 > 
+> Pair Programming: Yasir and Christina
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_Yasir%20and%20Christina.png)
 
 ### Test First
