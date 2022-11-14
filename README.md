@@ -109,7 +109,8 @@
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201.jpg)
 
 ### Daily Scrums
-> Our team performed multiple Daily Scrums. INSERT EVIDENCE OF ONE
+> Our team performed multiple Daily Scrums. Screenshot from one of our daily scrums below as evidence.
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/images/Daily%20Scrum%20Evidence.png)
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
