@@ -113,28 +113,30 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - 1. Yasir: Researched how to write test cases
-> - 2. Yasir: Researched email validation libaray
-> - 3. Zhao: Created wireframe of our product
-> - 4. Zhao: Researched a plug in for Figma to generate HTML and CSS code
-> - 5. Yasir and Zhao: Did pair programming
+> - Yasir: Researched how to write test cases
+> - Yasir: Researched email validation libaray
+> - Zhao: Created wireframe of our product
+> - Zhao: Researched a plug in for Figma to generate HTML and CSS code
+> - Yasir and Zhao: Did pair programming
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - 1. Yasir: Will figure out how to build the class for the Python testing
-> - 2. Yasir: Will identify two additional tests for the email validation
-> - 3. Zhao: Will generate HTML and CSS Code
-> - 4. Yasir: Will add promotional banners to the original ChidoLingo website
-> - 5. Zhao: Will edit wording on the new website based on feedback from Product Owner
+> - Yasir: Will figure out how to build the class for the Python testing
+> - Yasir: Will identify two additional tests for the email validation
+> - Zhao: Will generate HTML and CSS Code
+> - Yasir: Will add promotional banners to the original ChidoLingo website
+> - Zhao: Will edit wording on the new website based on feedback from Product Owner
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
-> - 1. Yasir was not sure if we should use Python or PHP for our project. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
-> - 2. Yasir was not sure if we could use a PHP email validation library. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
-> - 3. Zhao is new to using HTML and CSS code and has technical questions about how to perform certain tasks. The plan to remove the impediment is for him to conduct research on his technical questions. If he cannot figure out the answers himself, he will schedule time with the Senior Developer (Yasir) to figure out the answers together.
+> - Yasir was not sure if we should use Python or PHP for our project. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
+> - Yasir was not sure if we could use a PHP email validation library. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
+> - Zhao is new to using HTML and CSS code and has technical questions about how to perform certain tasks. The plan to remove the impediment is for him to conduct research on his technical questions. If he cannot figure out the answers himself, he will schedule time with the Senior Developer (Yasir) to figure out the answers together.
 
 ### Burndown Chart - Updates 
-> During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. INSERT TWO IMAGES SHOWING BURNDOWN CHART BEING UPDATED
+> During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
+> 
+> 
 
 ### Paired / Mobbed Programming
 > Our team engaged in Paired Programming:
