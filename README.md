@@ -136,7 +136,13 @@
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
 > 
+> November 7, 2022
 > 
+> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201_11.7.22.jpg)
+> 
+> November 9, 2022
+> 
+> ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Burndown%20Chart_Sprint%201_11.9.22.jpg)
 
 ### Paired / Mobbed Programming
 > Our team engaged in Paired Programming:
