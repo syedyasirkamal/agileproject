@@ -152,7 +152,11 @@
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/images/Pair%20Programming_2.jpeg)
 
 ### Test First
-> Our team is building our product test-first. Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
+> Our team is building our product test-first. The list of tests can be found at this URL: 
+> https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/tests/tests_chidolingo_main.py
+> 
+> Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
+> 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/tests_chidolingo_main.py)
 > 
 > ![](https://raw.githubusercontent.com/syedyasirkamal/agileproject/main/Sprint-1/tests/Screenshot-TestProof.png)
