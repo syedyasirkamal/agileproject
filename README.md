@@ -130,7 +130,7 @@
 > - Zhao: Will generate HTML and CSS Code
 > - Yasir: Will add promotional banners to the original ChidoLingo website
 > - Zhao: Will edit wording on the new website based on feedback from Product Owner
-> - Christina and Uriel will review the new website and provide editing feedback to the developers
+> - Christina and Uriel: Will review the new website and provide editing feedback to the developers
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
