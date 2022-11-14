@@ -119,6 +119,8 @@
 > - Zhao: Created wireframe of our product
 > - Zhao: Researched a plug in for Figma to generate HTML and CSS code
 > - Yasir and Zhao: Did pair programming
+> - Christina and Uriel: Worked together to develop content for website and forms
+> - Uriel and Yasir: Worked together to create custom graphics for promotions 
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
