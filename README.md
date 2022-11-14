@@ -163,7 +163,7 @@
 > Our team conducted a Sprint Review on 11/11/22. We invited a stakeholder (Spanish student, Terri) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
 
 ### Working Software
-> Our product increment is working software. The working software is the publicly accessible landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
+> Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
 > 
 > Below is evidence of the working software:
 > 
