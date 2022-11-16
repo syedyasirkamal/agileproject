@@ -199,4 +199,133 @@
 
 ### True User Stories
 > All of the PBIs our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+
+
+
+# Project Part 3
+
+### Forecast
+> The Forecast for our first sprint is X Story Points (using the Fibonacci Scale).
+
+### Rationale For Our Forecast
+> The rationale for the forecast is as follows:
+> - The Sprint has been timeboxed to 1 week (due to the time between Project Part 1 and Project Part 2).
+> - There is 1 Senior Developer and 1 Junior Developer
+> - Each developer communicated the amount of time they have available during the Sprint and estimated how much effort they would thereby be able to take on.
+> - Our team took into account time we would need for Sprint Planning, Periodic Daily Scrums, Sprint Review, and a Team Retrospective when determining how much time would be available for coding. 
+> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learner).
+
+### Pull Stories Into Sprint Backlog
+> Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. We pulled stories from the top of our Product Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog.
+
+### Right Size User Stories
+> Our forecasted velocity for this Sprint is X and the largest user story is estimated at X story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
+
+### Developer Tasks
+> User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban This Trello board is publicly accessible and can be viewed by course staff.
+
+### Kanban Board
+> The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
+
+### Burndown Chart
+> 
+> IMAGE
+
+### Daily Scrums
+> Our team performed multiple Daily Scrums. Screenshot from one of our daily scrums below as evidence.
+> 
+> IMAGE
+
+### Daily Scrums - Last 24 Hours
+> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> - Yasir: 
+> - Yasir: 
+> - Zhao: 
+> - Zhao: 
+> - Yasir and Zhao: 
+> - Christina and Uriel: 
+> - Uriel and Yasir:  
+
+### Daily Scrums - Next 24 Hours 
+> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> - Yasir: 
+> - Yasir: 
+> - Zhao: 
+> - Yasir: 
+> - Zhao: 
+> - Christina and Uriel: 
+
+### Daily Scrums - Impediments 
+> During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
+> -  
+> -  
+> - 
+
+### Burndown Chart - Updates 
+> During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
+> 
+> DATE
+> 
+> IMAGE
+> 
+> DATE
+> 
+> IMAGE
+
+### Paired / Mobbed Programming
+> There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
+> 
+> Mob Programming
+> IMAGE
+> 
+> Pair Programming: Yasir and Zhao 
+> IMAGE
+> 
+> Pair Programming: Yasir and Christina
+> IMAGE
+> 
+> Pair Programming: Yasir and Uriel
+> IMAGE
+
+### Test First
+> Our team is building our product test-first. The list of tests and explanations can be found at this URL: 
+> https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/tests/tests_chidolingo_main.py
+> 
+> All files related to tests can be found here: 
+> https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
+> 
+> Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
+> 
+> IMAGE
+
+### Sprint Review
+> Our team conducted a Sprint Review on DATE. We invited a stakeholder (Spanish student, Terri) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
+
+### Working Software
+> Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
+> 
+> Below is evidence of the working software:
+> 
+> IMAGE
+
+### Sprint Review - Stakeholder
+> One stakeholder attended the Sprint Review. The stakeholder is an existing ChidoLingo Spanish language learner (Terri). Based on feedback from the stakeholder, we revised the Product Backlog. 
+> 
+> IMAGE
+
+### Continuous Integration System Is Running
+> TBD
+
+### Continuous Delivery System Is Running
+> TBD
+
+### Sprint Retrospective
+> - Our team conducted a Sprint Retrospective. 
+> - One action that we identified that would make our team significantly better is TBD.
+> - Our action plan is articulated as a PBI, including User Acceptance Criteria.
+> - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
+
+### True User Stories
+> All of the PBIs our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+
 ```
