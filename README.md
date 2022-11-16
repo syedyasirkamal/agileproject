@@ -257,9 +257,9 @@
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
-> - Yasir was not sure if we should use Python or PHP for our project. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
-> - Yasir was not sure if we could use a PHP email validation library. The plan to remove the impediment is to post a message to the professor on the course Discord Channel. 
-> - Zhao is new to using HTML and CSS code and has technical questions about how to perform certain tasks. The plan to remove the impediment is for him to conduct research on his technical questions. If he cannot figure out the answers himself, he will schedule time with the Senior Developer (Yasir) to figure out the answers together.
+> - Yasir  
+> - Yasir  
+> - Zhao 
 
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
