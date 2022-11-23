@@ -252,7 +252,7 @@ def __get_length_reason(addr, utf8=False, limit=EMAIL_MAX_LENGTH):
     return reason.format(prefix, diff, suffix)
 
 
-def caching_resolver(*, timeout=None, cache=None):
+def caching_resolver(timeout=None, cache=None):
     if timeout is None:
         timeout = DEFAULT_TIMEOUT
     resolver = dns.resolver.Resolver()
