@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-
 import sys
 import re
 import unicodedata
 import idna  # implements IDNA 2008; Python's codec is only IDNA 2003
-
+ 
 # Default values for keyword arguments.
 
 ALLOW_SMTPUTF8 = False
