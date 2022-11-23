@@ -37,12 +37,7 @@ class MyTestCase(unittest.TestCase,assertion_plugin.Exceptions):
         with self.assertRaises(EmailSyntaxError):
             validate_email(test_email)
 
-    """Test to make sure emails cannot contain foreign or non-ASCII characters. Customers must have regular email"""
-    def test_email_with_non_ascii_characters(self):
-        test_email = ascii('test汉字@chidolingo.com')
-        with self.assertRaises(EmailSyntaxError):
-            validate_email(test_email)
-
+ 
     """Test whether emails can contain space as long as they are in quotes."""
     def test_email_with_quoted_space(self):
         test_email = '"test c"@chidolingo.com'
