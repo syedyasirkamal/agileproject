@@ -3,7 +3,7 @@
 import sys
 import re
 import unicodedata
-import dns.resolver
+import dnsresolver
 import dns.exception
 import idna  # implements IDNA 2008; Python's codec is only IDNA 2003
 
@@ -251,12 +251,12 @@ def __get_length_reason(addr, utf8=False, limit=EMAIL_MAX_LENGTH):
     suffix = "s" if diff > 1 else ""
     return reason.format(prefix, diff, suffix)
 
-
+ 
 def caching_resolver(timeout=None, cache=None):
     if timeout is None:
         timeout = DEFAULT_TIMEOUT
-    resolver = dns.resolver.Resolver()
-    resolver.cache = cache or dns.resolver.LRUCache()
+    resolver = dnsresolver.Resolver()
+    resolver.cache = cache or dnsresolver.LRUCache()
     resolver.lifetime = timeout  # timeout, in seconds
     return resolver
 
@@ -597,19 +597,19 @@ def validate_email_deliverability(domain, domain_i18n, timeout=DEFAULT_TIMEOUT, 
     # (Note that changing the DEFAULT_TIMEOUT module-level attribute
     #  will not change the default value of this method's timeout argument.)
 
-    # If no dns.resolver.Resolver was given, get dnspython's default resolver.
+    # If no dnsresolver.Resolver was given, get dnspython's default resolver.
     # Override the default resolver's timeout. This may affect other uses of
     # dnspython in this process.
     if dns_resolver is None:
-        dns_resolver = dns.resolver.get_default_resolver()
+        dns_resolver = dnsresolver.get_default_resolver()
         dns_resolver.lifetime = timeout
 
     deliverability_info = {}
 
     def dns_resolver_resolve_shim(domain, record):
         try:
-            # dns.resolver.Resolver.resolve is new to dnspython 2.x.
-            # https://dnspython.readthedocs.io/en/latest/resolver-class.html#dns.resolver.Resolver.resolve
+            # dnsresolver.Resolver.resolve is new to dnspython 2.x.
+            # https://dnspython.readthedocs.io/en/latest/resolver-class.html#dnsresolver.Resolver.resolve
             return dns_resolver.resolve(domain, record)
         except AttributeError:
             # dnspython 2.x is only available in Python 3.6 and later. For earlier versions
@@ -617,8 +617,8 @@ def validate_email_deliverability(domain, domain_i18n, timeout=DEFAULT_TIMEOUT, 
             # dnspython.resolver.Resolver.query method instead. The only difference is that
             # query may treat the domain as relative and use the system's search domains,
             # which we prevent by adding a "." to the domain name to make it absolute.
-            # dns.resolver.Resolver.query is deprecated in dnspython version 2.x.
-            # https://dnspython.readthedocs.io/en/latest/resolver-class.html#dns.resolver.Resolver.query
+            # dnsresolver.Resolver.query is deprecated in dnspython version 2.x.
+            # https://dnspython.readthedocs.io/en/latest/resolver-class.html#dnsresolver.Resolver.query
             return dns_resolver.query(domain + ".", record)
 
     try:
@@ -646,21 +646,21 @@ def validate_email_deliverability(domain, domain_i18n, timeout=DEFAULT_TIMEOUT, 
             deliverability_info["mx"] = mtas
             deliverability_info["mx_fallback_type"] = None
 
-        except (dns.resolver.NoNameservers, dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+        except (dnsresolver.NoNameservers, dnsresolver.NXDOMAIN, dnsresolver.NoAnswer):
 
             # If there was no MX record, fall back to an A record.
             try:
                 response = dns_resolver_resolve_shim(domain, "A")
                 deliverability_info["mx"] = [(0, str(r)) for r in response]
                 deliverability_info["mx_fallback_type"] = "A"
-            except (dns.resolver.NoNameservers, dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+            except (dnsresolver.NoNameservers, dnsresolver.NXDOMAIN, dnsresolver.NoAnswer):
 
                 # If there was no A record, fall back to an AAAA record.
                 try:
                     response = dns_resolver_resolve_shim(domain, "AAAA")
                     deliverability_info["mx"] = [(0, str(r)) for r in response]
                     deliverability_info["mx_fallback_type"] = "AAAA"
-                except (dns.resolver.NoNameservers, dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+                except (dnsresolver.NoNameservers, dnsresolver.NXDOMAIN, dnsresolver.NoAnswer):
 
                     # If there was no MX, A, or AAAA record, then mail to
                     # this domain is not deliverable.
@@ -677,10 +677,10 @@ def validate_email_deliverability(domain, domain_i18n, timeout=DEFAULT_TIMEOUT, 
                     deliverability_info["spf"] = value.decode("ascii", errors='replace')
                     if value == b"v=spf1 -all":
                         raise EmailUndeliverableError("The domain name %s does not send email." % domain_i18n)
-        except dns.resolver.NoAnswer:
+        except dnsresolver.NoAnswer:
             # No TXT records means there is no SPF policy, so we cannot take any action.
             pass
-        except (dns.resolver.NoNameservers, dns.resolver.NXDOMAIN):
+        except (dnsresolver.NoNameservers, dnsresolver.NXDOMAIN):
             # Failure to resolve at this step will be ignored.
             pass
 
