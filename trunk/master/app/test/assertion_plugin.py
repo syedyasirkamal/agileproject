@@ -73,7 +73,7 @@ class AssertNothingRaisedContext:
             traceback.format_exception(exc_type, exc_value, tb)[1:-1])
         text = message + stack  
         raise self.failureException(text)
-
+ 
 
 class String:
 
