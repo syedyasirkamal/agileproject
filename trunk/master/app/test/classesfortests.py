@@ -2,7 +2,8 @@
 
 import sys
 import re
-import unicodedata 
+import unicodedata
+import idna  # implements IDNA 2008; Python's codec is only IDNA 2003
 
 # Default values for keyword arguments.
 
@@ -465,7 +466,121 @@ def validate_email_local_part(local, allow_smtputf8=True, allow_empty_local=Fals
         }
 
 
- 
+def validate_email_domain_part(domain, test_environment=False, globally_deliverable=True):
+    # Empty?
+    if len(domain) == 0:
+        raise EmailSyntaxError("There must be something after the @-sign.")
+
+    # Perform UTS-46 normalization, which includes casefolding, NFC normalization,
+    # and converting all label separators (the period/full stop, fullwidth full stop,
+    # ideographic full stop, and halfwidth ideographic full stop) to basic periods.
+    # It will also raise an exception if there is an invalid character in the input,
+    # such as "⒈" which is invalid because it would expand to include a period.
+    try:
+        domain = idna.uts46_remap(domain, std3_rules=False, transitional=False)
+    except idna.IDNAError as e:
+        raise EmailSyntaxError("The domain name %s contains invalid characters (%s)." % (domain, str(e)))
+
+    # Now we can perform basic checks on the use of periods (since equivalent
+    # symbols have been mapped to periods). These checks are needed because the
+    # IDNA library doesn't handle well domains that have empty labels (i.e. initial
+    # dot, trailing dot, or two dots in a row).
+    if domain.endswith("."):
+        raise EmailSyntaxError("An email address cannot end with a period.")
+    if domain.startswith("."):
+        raise EmailSyntaxError("An email address cannot have a period immediately after the @-sign.")
+    if ".." in domain:
+        raise EmailSyntaxError("An email address cannot have two periods in a row.")
+
+    # Regardless of whether international characters are actually used,
+    # first convert to IDNA ASCII. For ASCII-only domains, the transformation
+    # does nothing. If internationalized characters are present, the MTA
+    # must either support SMTPUTF8 or the mail client must convert the
+    # domain name to IDNA before submission.
+    #
+    # Unfortunately this step incorrectly 'fixes' domain names with leading
+    # periods by removing them, so we have to check for this above. It also gives
+    # a funky error message ("No input") when there are two periods in a
+    # row, also checked separately above.
+    try:
+        ascii_domain = idna.encode(domain, uts46=False).decode("ascii")
+    except idna.IDNAError as e:
+        if "Domain too long" in str(e):
+            # We can't really be more specific because UTS-46 normalization means
+            # the length check is applied to a string that is different from the
+            # one the user supplied. Also I'm not sure if the length check applies
+            # to the internationalized form, the IDNA ASCII form, or even both!
+            raise EmailSyntaxError("The email address is too long after the @-sign.")
+        raise EmailSyntaxError("The domain name %s contains invalid characters (%s)." % (domain, str(e)))
+
+    # We may have been given an IDNA ASCII domain to begin with. Check
+    # that the domain actually conforms to IDNA. It could look like IDNA
+    # but not be actual IDNA. For ASCII-only domains, the conversion out
+    # of IDNA just gives the same thing back.
+    #
+    # This gives us the canonical internationalized form of the domain,
+    # which we should use in all error messages.
+    try:
+        domain_i18n = idna.decode(ascii_domain.encode('ascii'))
+    except idna.IDNAError as e:
+        raise EmailSyntaxError("The domain name %s is not valid IDNA (%s)." % (ascii_domain, str(e)))
+
+    # RFC 5321 4.5.3.1.2
+    # We're checking the number of bytes (octets) here, which can be much
+    # higher than the number of characters in internationalized domains,
+    # on the assumption that the domain may be transmitted without SMTPUTF8
+    # as IDNA ASCII. This is also checked by idna.encode, so this exception
+    # is never reached.
+    if len(ascii_domain) > DOMAIN_MAX_LENGTH:
+        raise EmailSyntaxError("The email address is too long after the @-sign.")
+
+    # A "dot atom text", per RFC 2822 3.2.4, but using the restricted
+    # characters allowed in a hostname (see ATEXT_HOSTNAME above).
+    DOT_ATOM_TEXT = ATEXT_HOSTNAME + r'(?:\.' + ATEXT_HOSTNAME + r')*'
+
+    # Check the regular expression. This is probably entirely redundant
+    # with idna.decode, which also checks this format.
+    m = re.match(DOT_ATOM_TEXT + "\\Z", ascii_domain)
+    if not m:
+        raise EmailSyntaxError("The email address contains invalid characters after the @-sign.")
+
+    if globally_deliverable:
+        # All publicly deliverable addresses have domain named with at least
+        # one period, and we'll consider the lack of a period a syntax error
+        # since that will match people's sense of what an email address looks
+        # like. We'll skip this in test environments to allow '@test' email
+        # addresses.
+        if "." not in ascii_domain and not (ascii_domain == "test" and test_environment):
+            raise EmailSyntaxError("The domain name %s is not valid. It should have a period." % domain_i18n)
+
+        # We also know that all TLDs currently end with a letter.
+        if not re.search(r"[A-Za-z]\Z", ascii_domain):
+            raise EmailSyntaxError(
+                "The domain name %s is not valid. It is not within a valid top-level domain." % domain_i18n
+            )
+
+    # Check special-use and reserved domain names.
+    # Some might fail DNS-based deliverability checks, but that
+    # can be turned off, so we should fail them all sooner.
+    for d in SPECIAL_USE_DOMAIN_NAMES:
+        # See the note near the definition of SPECIAL_USE_DOMAIN_NAMES.
+        if d == "test" and test_environment:
+            continue
+
+        if ascii_domain == d or ascii_domain.endswith("." + d):
+            raise EmailSyntaxError("The domain name %s is a special-use or reserved name that cannot be used with email." % domain_i18n)
+
+    # Return the IDNA ASCII-encoded form of the domain, which is how it
+    # would be transmitted on the wire (except when used with SMTPUTF8
+    # possibly), as well as the canonical Unicode form of the domain,
+    # which is better for display purposes. This should also take care
+    # of RFC 6532 section 3.1's suggestion to apply Unicode NFC
+    # normalization to addresses.
+    return {
+        "ascii_domain": ascii_domain,
+        "domain": domain_i18n,
+    }
+
  
 
 def main():
