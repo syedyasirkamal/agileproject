@@ -264,7 +264,7 @@ def caching_resolver(timeout=None, cache=None):
 def validate_email(
     email,
     # /, # not supported in Python 3.6, 3.7
-    *,
+
     allow_smtputf8=None,
     allow_empty_local=False,
     check_deliverability=None,
