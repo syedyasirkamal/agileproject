@@ -71,7 +71,7 @@ class AssertNothingRaisedContext:
         #  message, since we're printing that ourselves
         stack = ''.join(
             traceback.format_exception(exc_type, exc_value, tb)[1:-1])
-        text = message + stack + f'Unexpected {exc_name}: {exc_value}'
+        text = message + stack  
         raise self.failureException(text)
 
 
