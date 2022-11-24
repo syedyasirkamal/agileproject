@@ -261,7 +261,7 @@ def caching_resolver(*, timeout=None, cache=None):
     return resolver
 
 
-def validate_email(
+def validate_email(self,
     email,
     # /, # not supported in Python 3.6, 3.7
     *,
@@ -294,7 +294,8 @@ def validate_email(
     # on the wire with SMTP.
     if not isinstance(email, (str, unicode_class)):
         try:
-            email = email.decode("ascii")
+            email_raw = email.data
+            email = email_raw
         except ValueError:
             raise EmailSyntaxError("The email address is not valid ASCII.")
 
@@ -733,6 +734,7 @@ def main():
             print(json.dumps(result.as_dict(), indent=2, sort_keys=True, ensure_ascii=False))
         except EmailNotValidError as e:
             print(__utf8_output_shim(e))
+
 
 
 if __name__ == "__main__":
