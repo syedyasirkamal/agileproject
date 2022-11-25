@@ -2,8 +2,6 @@
 ###############################################
 import os
 from flask import Flask, render_template, request, redirect, url_for
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.sql import func
 from app.forms import signupForm
 from flask_mysqldb import MySQL
 
