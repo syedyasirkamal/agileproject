@@ -5,7 +5,14 @@ import re
 import unicodedata
 import dns.resolver
 import dns.exception
-import idna  # implements IDNA 2008; Python's codec is only IDNA 2003
+import idna  # implements IDNA 2008; Python's codec is only IDNA
+import datetime
+from wtforms import widgets
+from wtforms.fields.core import Field
+from wtforms.utils import clean_datetime_format_for_strptime
+from wtforms import ValidationError
+
+
 
 # Default values for keyword arguments.
 
@@ -736,6 +743,40 @@ def main():
             print(__utf8_output_shim(e))
 
 
+class Future_Date_Time:
+    def validate_futuredate(field):
+        if datetime.datetime.strptime(field, '%Y-%m-%d %H:%M:%S') < datetime.datetime.today():
+            raise ValidationError("The date cannot be in the past!")
+
+
+
+__all__ = (
+    "DateTimeField",
+)
+
+
+class DateTimeField(Field):
+    """
+    A text field which stores a :class:`datetime.datetime` matching one or
+    several formats. If ``format`` is a list, any input value matching any
+    format will be accepted, and the first format in the list will be used
+    to produce HTML values.
+    """
+
+    widget = widgets.DateTimeInput()
+
+    def validate_datetime(datetimeSTR):
+        try:
+            datetime_obj = datetime.datetime.strptime(datetimeSTR, '%Y-%m-%d %H:%M:%S')
+        except:
+            raise ValueError('The time must have the format "Not a valid datetime value')
+        else:
+            return datetime_obj
+
+class Name_Validation:
+    def validate_name(field):
+        if not re.match(r'^[a-zA-Z-\s]+$', field):
+            raise ValidationError("Only have alphabets or dash in name field are allowed")
 
 if __name__ == "__main__":
     main()

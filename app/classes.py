@@ -1,6 +1,7 @@
 import app.test.classesfortests as classesfortests
 from wtforms import ValidationError
-
+import datetime
+import re
 
 class Email:
     """
@@ -52,3 +53,13 @@ class Email:
                     message = field.gettext("Invalid email address.")
             raise ValidationError(message) from e
 
+
+class Date_Time:
+    def validate_date(self, field):
+        if field.data < datetime.datetime.today():
+            raise ValidationError("The date cannot be in the past!")
+
+class Name_Validation:
+    def validate_name(self,field):
+        if not re.match(r'^[a-zA-Z-\s]+$', field.data):
+            raise ValueError("Only have alphabets or dash in name field are allowed")
