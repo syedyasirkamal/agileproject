@@ -233,9 +233,9 @@
 > IMAGE
 
 ### Daily Scrums
-> Our team performed multiple Daily Scrums. Screenshot from one of our daily scrums below as evidence.
+> Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
 > 
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/Daily%20Scrum_Sprint%202_11.22.22_Picture.png
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Daily%20Scrum_Sprint%202_11.22.22_Picture.png)
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
@@ -277,13 +277,13 @@
 > There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
 > 
 > Mob Programming
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/Mob%20Programming_Sprint%202_11.26.22.png
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Mob%20Programming_Sprint%202_11.26.22.png)
 > 
 > Pair Programming: Yasir and Zhao 
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Zhao.png
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Zhao.png)
 > 
 > Pair Programming: Yasir and Christina
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Christina.png
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Christina.png)
 > 
 > Pair Programming: Yasir and Uriel
 > IMAGE
