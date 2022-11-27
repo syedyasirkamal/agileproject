@@ -205,24 +205,25 @@
 # Project Part 3
 
 ### Forecast
-> The Forecast for our first sprint is X Story Points (using the Fibonacci Scale).
+> The Forecast for our first sprint is 16 Story Points (using the Fibonacci Scale).
 
 ### Rationale For Our Forecast
 > The rationale for the forecast is as follows:
-> - The Sprint has been timeboxed to 1 week (due to the time between Project Part 1 and Project Part 2).
+> - The Sprint has been timeboxed to 2 weeks.
 > - There is 1 Senior Developer and 1 Junior Developer
+> - Our first Sprint was 1 week and we did 8 points worth of effort (based on the revised Kanban board). 
 > - Each developer communicated the amount of time they have available during the Sprint and estimated how much effort they would thereby be able to take on.
 > - Our team took into account time we would need for Sprint Planning, Periodic Daily Scrums, Sprint Review, and a Team Retrospective when determining how much time would be available for coding. 
-> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learner).
+> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learners and the business partners).
 
 ### Pull Stories Into Sprint Backlog
 > Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. We pulled stories from the top of our Product Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog.
 
 ### Right Size User Stories
-> Our forecasted velocity for this Sprint is X and the largest user story is estimated at X story points. Therefore the size of each sprint backlog item is less than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
+> Our forecasted velocity for this Sprint is 16 and the largest user story is estimated at 8 story points. Therefore the size of each sprint backlog item is no more than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
 
 ### Developer Tasks
-> User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban This Trello board is publicly accessible and can be viewed by course staff.
+> User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban. This Trello board is publicly accessible and can be viewed by course staff.
 
 ### Kanban Board
 > The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
