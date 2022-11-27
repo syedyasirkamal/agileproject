@@ -239,28 +239,28 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - Yasir: 
-> - Yasir: 
-> - Zhao: 
-> - Zhao: 
-> - Yasir and Zhao: 
-> - Christina and Uriel: 
-> - Uriel and Yasir:  
+> - Yasir: Created a database for the email forms to store data 
+> - Yasir: Created the email forms and set up the email link capability
+> - Zhao: Created the FAQ sections using HTML and CSS 
+> - Zhao: Re-created the ChidoLingo Challenge Page
+> - Yasir and Zhao: Pushed the code through the CICD pipeline
+> - Uriel: Configured DNS from GoDaddy to Digital Ocean
+> - Christina: Helped Yasir build tests for the forms
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - Yasir: 
-> - Yasir: 
-> - Zhao: 
-> - Yasir: 
-> - Zhao: 
-> - Christina and Uriel: 
+> - Yasir: Research how to build CICD on GitHub
+> - Yasir: Will link up Zhao’s code with the links to ChidoLingo.com; will push all that code into the CICD pipeline; Will insert forms into the template the Zhao creates
+> - Zhao: Will create links for top menu and add FAQ’s
+> - Zhao: Will review existing work; will respond to requests from Yasir to make any changes
+> - Yasir: Will link up Zhao’s code with the links to ChidoLingo.com; will push all that code into the CICD pipeline; Will insert forms into the template the Zhao creates
+> - Christina and Uriel: Will send information for the website inclduing FAQ’s, the conditions for the promo, and edits to the wording/location of information on the website
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
-> - Yasir  
-> - Yasir  
-> - Zhao 
+> - Yasir: Has never built out a CICD pipeline/workflow. Needs to educate himself on how to do it.  
+> - Yasir: There is a bug that he can see in the form when you use certain characters (validation error); needs to fix that  
+> - Zhao: Unable to link website to the code (technical expertise limitations) 
 
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
