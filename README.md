@@ -230,7 +230,7 @@
 
 ### Burndown Chart
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%202_Complete.pdf)
 
 ### Daily Scrums
 > Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
