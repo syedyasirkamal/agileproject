@@ -1,6 +1,7 @@
 import unittest
 import pathlib as pl
 
+
 class TestCaseBase(unittest.TestCase):
     def assertIsFile(self, path):
         if not pl.Path(path).resolve().is_file():
