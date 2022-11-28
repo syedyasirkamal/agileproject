@@ -367,7 +367,7 @@
 
 ### Sprint Retrospective
 > - Our team conducted a Sprint Retrospective on 11/27/22.
-> - One action that we identified that would make our team significantly better is TBD.
+> - One action that we identified that would make our team significantly better is to develop an MVP for our product.
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
