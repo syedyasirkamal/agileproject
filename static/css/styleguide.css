@@ -1,0 +1,44 @@
+:root { 
+  --black: #000000;
+  --eerie-black: #1e1e1e;
+  --hibiscus: #b9285e;
+  --white: #ffffff;
+  --yellow-orange: #f3ac3e;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-xl: 64px;
+ 
+  --font-family-nunito: "Nunito", Helvetica;
+}
+.nunito-black-eerie-black-20px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.nunito-black-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.nunito-black-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.nunito-black-white-64px {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 900;
+}

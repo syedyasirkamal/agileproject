@@ -1,0 +1,359 @@
+/* screen - macbook-pro-16-1 */
+
+.macbook-pro-16-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3136px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.macbook-pro-16-1 .rectangle-1 {
+  background-color: var(--hibiscus);
+  border: 1px none;
+  height: 66px;
+  width: 1728px;
+}
+
+.macbook-pro-16-1 .navbar {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 98px;
+}
+
+.macbook-pro-16-1 .chidolingo-logo-1 {
+  height: 48px;
+  object-fit: cover;
+  width: 194px;
+}
+
+.macbook-pro-16-1 .navbar-link-meet-our-teachers {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 374px;
+  min-height: 27px;
+  min-width: 178px;
+}
+
+.macbook-pro-16-1 .navbar-link-free-lesson-sign-up {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 108px;
+  min-height: 27px;
+  min-width: 197px;
+}
+
+.macbook-pro-16-1 .navbar-link-join-our-mailing-list {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 89px;
+  min-height: 27px;
+  min-width: 196px;
+}
+
+.macbook-pro-16-1 .navbar-link-place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 101px;
+  min-height: 27px;
+  min-width: 57px;
+}
+
+.macbook-pro-16-1 .overlap-group4 {
+  height: 4137px;
+  margin-top: 75px;
+  position: relative;
+  width: 1745px;
+}
+
+.macbook-pro-16-1 .rectangle-2 {
+  background-color: #8d982e;
+  border: 1px none;
+  height: 1217px;
+  left: 0;
+  position: absolute;
+  top: 456px;
+  width: 1728px;
+}
+
+.macbook-pro-16-1 .rectangle-8 {
+  background-color: var(--hibiscus);
+  border: 1px none;
+  height: 1500px;
+  left: 0;
+  position: absolute;
+  top: 1668px;
+  width: 1728px;
+}
+
+.macbook-pro-16-1 .chip-1 {
+  height: 441px;
+  left: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 724px;
+  width: 328px;
+}
+
+.macbook-pro-16-1 .flower-1 {
+  height: 567px;
+  left: 1334px;
+  object-fit: cover;
+  position: absolute;
+  top: 634px;
+  width: 319px;
+}
+
+.macbook-pro-16-1 .overlap-group {
+  height: 210px;
+  left: 638px;
+  position: absolute;
+  top: 866px;
+  width: 475px;
+}
+
+.macbook-pro-16-1 .line-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 68px;
+  width: 475px;
+}
+
+.macbook-pro-16-1 .line-2 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 134px;
+  width: 475px;
+}
+
+.macbook-pro-16-1 .group-8 {
+  align-items: flex-start;
+  display: flex;
+  gap: 11px;
+  height: 80px;
+  left: 36px;
+  min-width: 405px;
+  position: absolute;
+  top: 0;
+}
+
+.macbook-pro-16-1 .group {
+  align-items: center;
+  align-self: center;
+  background-color: var(--yellow-orange);
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  min-width: 30px;
+  padding: 0 5.5px;
+}
+
+.macbook-pro-16-1 .vector-4 {
+  height: 10px;
+  width: 18px;
+}
+
+.macbook-pro-16-1 .address {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 362px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .group-9 {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  height: 80px;
+  left: 116px;
+  min-width: 229px;
+  position: absolute;
+  top: 130px;
+}
+
+.macbook-pro-16-1 .x30-cash-back {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 190px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .group-7 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 80px;
+  left: 77px;
+  min-width: 332px;
+  position: absolute;
+  top: 63px;
+}
+
+.macbook-pro-16-1 .native-spanish-teachers {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 284px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .overlap-group1 {
+  height: 80px;
+  left: 285px;
+  position: absolute;
+  top: 1171px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .rectangle-10 {
+  background-color: var(--yellow-orange);
+  border: 6px solid;
+  border-color: var(--black);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .schedule-a-free-lesson {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .overlap-group2 {
+  height: 80px;
+  left: 693px;
+  position: absolute;
+  top: 1171px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .rectangle-10-1 {
+  background-color: #3c8bb4;
+  border: 6px solid;
+  border-color: var(--black);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .e-mail-notification-fomr {
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .overlap-group3 {
+  height: 80px;
+  left: 1101px;
+  position: absolute;
+  top: 1171px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .rectangle-10-2 {
+  background-color: var(--hibiscus);
+  border: 6px solid;
+  border-color: var(--black);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 352px;
+}
+
+.macbook-pro-16-1 .e-mail-notification-fomr-1 {
+  left: 68px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.macbook-pro-16-1 .rating {
+  height: 77px;
+  left: 759px;
+  object-fit: cover;
+  position: absolute;
+  top: 1374px;
+  width: 233px;
+}
+
+.macbook-pro-16-1 .title {
+  left: 540px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 572px;
+}
+
+.macbook-pro-16-1 .span-1 {
+  color: var(--yellow-orange);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+}
+
+.macbook-pro-16-1 .banner-website-1 {
+  height: 463px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1742px;
+}
+
+.macbook-pro-16-1 .chipbook-1 {
+  height: 236px;
+  left: 775px;
+  object-fit: cover;
+  position: absolute;
+  top: 2600px;
+  width: 236px;
+}
+
+.macbook-pro-16-1 .wave-1 {
+  height: 65px;
+  left: 714px;
+  object-fit: cover;
+  position: absolute;
+  top: 2800px;
+  width: 358px;
+}

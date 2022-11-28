@@ -1,0 +1,116 @@
+/* screen - macbook-pro-16-2 */
+
+.macbook-pro-16-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 4136px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.macbook-pro-16-2 .rectangle-1 {
+  background-color: var(--hibiscus);
+  border: 1px none;
+  height: 66px;
+  width: 1728px;
+}
+
+.macbook-pro-16-2 .navbar {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 104px;
+}
+
+.macbook-pro-16-2 .menu-bar {
+  background-image: url(../img/chidolingo-logo-1-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  width: 194px;
+}
+
+.macbook-pro-16-2 .navbar-link-meet-our-teachers {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 368px;
+  min-height: 27px;
+  min-width: 178px;
+}
+
+.macbook-pro-16-2 .navbar-link-free-lesson-sign-up {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 108px;
+  min-height: 27px;
+  min-width: 197px;
+}
+
+.macbook-pro-16-2 .navbar-link-join-our-mailing-list {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 89px;
+  min-height: 27px;
+  min-width: 196px;
+}
+
+.macbook-pro-16-2 .navbar-link-place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 101px;
+  min-height: 27px;
+  min-width: 57px;
+}
+
+.macbook-pro-16-2 .banner-website-1 {
+  height: 463px;
+  margin-left: 3px;
+  margin-top: 75px;
+  object-fit: cover;
+  width: 1742px;
+}
+
+.macbook-pro-16-2 .rectangle-11 {
+  align-self: center;
+  background-color: var(--white);
+  border: 1px none;
+  height: 1117px;
+  margin-top: 44px;
+  width: 1630px;
+}
+
+.macbook-pro-16-2 .overlap-group {
+  align-items: flex-end;
+  background-color: var(--hibiscus);
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  min-height: 2469px;
+  padding: 514px 656px;
+  width: 1728px;
+}
+
+.macbook-pro-16-2 .chipbook-1 {
+  align-self: center;
+  height: 236px;
+  margin-left: 58.0px;
+  margin-top: 1140px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.macbook-pro-16-2 .wave-1 {
+  height: 65px;
+  object-fit: cover;
+  width: 358px;
+}
