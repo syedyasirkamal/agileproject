@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 
-<html>
-	<head>
-		<title>Contact</title>
-	</head>
-	<body>
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block content %}
 		<div class="container">
-			<h1>Contact Us</h1>
+			<h1>Join our mailing list!</h1>
 			<form method="POST" action="/signup/submit">
 				{{ form.csrf_token }}
 
@@ -17,6 +17,16 @@
 				</p>
 
 
+        {% if form.name.errors %}
+
+                {% for error in form.name.errors %}
+                    {{ error }}
+                {% endfor %}
+
+        {% endif %}
+
+
+
 				<p>
 					{{ form.email.label }}
 					<br>
@@ -25,15 +35,15 @@
 
 
         {% if form.email.errors %}
-            <ul class="errors">
+
                 {% for error in form.email.errors %}
                     {{ error }}
                 {% endfor %}
-            </ul>
-        {% endif %}
 
+        {% endif %}
+<br>
 				{{ form.submit }}
 			</form>
 		</div>
-	</body>
-</html>
+	{% endblock %}
+

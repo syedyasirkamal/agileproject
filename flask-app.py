@@ -50,7 +50,7 @@ mail = Mail(app)
 
 
 @app.route('/createdatabase')
-def index():
+def createdatabase():
     # Creating a connection cursor
     cursor = mysql.connection.cursor()
 
@@ -70,8 +70,8 @@ def index():
 #       Render Contact page                   #
 ###############################################
 @app.route('/', methods=['GET'])
-def index2():
-    return render_template("index.html")
+def index():
+    return render_template("main-container.html")
 
 @app.route('/trial', methods=["GET", "POST"])
 def trial():
@@ -101,11 +101,11 @@ def signupsubmit():
             cursor.close()
 
             msg = Message(
-                'Hello from chidopromos',
+                'Thank you for joining ChidoLingo Promos Mailing List',
                 sender='chidopromos@gmail.com',
                 recipients=[email]
             )
-            msg.body = 'Hello from chidopromos'
+            msg.html = render_template(template_name_or_list="email-maillist.html")
             mail.send(msg)
             return render_template("signupconfirmation.html", name=name, email=email)
 
@@ -131,7 +131,7 @@ def trialsubmit():
             cursor.execute(database,val)
             mysql.connection.commit()
             cursor.close()
-            return f"Done!!"
+            return render_template("trialconfirmation.html", name=firstname, tutor=tutor, datetime=datetime)
     else:
         return render_template("trial.html", form=cform)
 

@@ -559,7 +559,7 @@ def validate_email_domain_part(domain, test_environment=False, globally_delivera
     # with idna.decode, which also checks this format.
     m = re.match(DOT_ATOM_TEXT + "\\Z", ascii_domain)
     if not m:
-        raise EmailSyntaxError("The email address contains invalid characters after the @-sign.")
+        raise EmailSyntaxError("The email address contains invalid characters after the @-sign. Cannot have a subdomain or domain with single character")
 
     if globally_deliverable:
         # All publicly deliverable addresses have domain named with at least

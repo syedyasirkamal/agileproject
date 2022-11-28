@@ -8,8 +8,7 @@ class signupForm(FlaskForm):
     name = StringField(label='Name', validators=[DataRequired(), Name_Validation.validate_name])
     email = StringField(label='Email', validators=[
         DataRequired(), Email(granular_message=True)])
-    submit = SubmitField(label="Log In")
-
+    submit = SubmitField(label="Join our mailing list")
 class trialForm(FlaskForm):
     myChoices = ('','Uriel', 'Flor', 'Gabriel')
     tutor = SelectField('Tutor', choices=myChoices, validators=[DataRequired()])
@@ -18,4 +17,4 @@ class trialForm(FlaskForm):
     email = StringField(label='Email', validators=[
         DataRequired(), Email(granular_message=True)])
     datetime = DateTimeField(id="datepick", validators=[DataRequired(), Date_Time.validate_date])
-    submit = SubmitField(label="Log In")
+    submit = SubmitField(label="Sign up for Trial Lesson")

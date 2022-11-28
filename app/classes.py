@@ -62,4 +62,4 @@ class Date_Time:
 class Name_Validation:
     def validate_name(self,field):
         if not re.match(r'^[a-zA-Z-\s]+$', field.data):
-            raise ValueError("Only have alphabets or dash in name field are allowed")
+            raise ValidationError("Only have alphabets or dash in name field are allowed")
