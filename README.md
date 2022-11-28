@@ -295,9 +295,8 @@
 > All files related to tests can be found here: 
 > https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
 > 
-> Below is a screenshot of 18 micro-scale unit tests in the test suite and they all pass.
-> 
-> IMAGE
+> Below is a screenshot of 32 micro-scale unit tests in the test suite and they all pass.
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-TEST.jpg)
 
 ### Sprint Review
 > Our team conducted a Sprint Review on DATE. We invited a stakeholder (Spanish student, Terri) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
@@ -305,9 +304,12 @@
 ### Working Software
 > Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
 > 
-> Below is evidence of the working software:
+> Below is evidence of the working software (main site, form, database, email notification):
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/workiingsoftware.jpg)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-DATABASE.jpg)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/email-workingsoftware.jpg)
+> 
 
 ### Sprint Review - Stakeholder
 > One stakeholder attended the Sprint Review. The stakeholder is an existing ChidoLingo Spanish language learner (Terri). Based on feedback from the stakeholder, we revised the Product Backlog. 
@@ -316,7 +318,7 @@
 
 ### Continuous Integration System Is Running
 > You have a Continuous Integration system running. 
->![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
 
 > You only work on the main/trunk/master together—there are no long-lived code branches. 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-1.jpg)
@@ -347,7 +349,7 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI2.jpg)
 >  
 >  You have provided evidence that your CD system exists and behaves properly.
->  See images above
+>  Some of the CI screenshots might also be relevant for this section. See all images above
 
 ### Sprint Retrospective
 > - Our team conducted a Sprint Retrospective. 
