@@ -265,28 +265,32 @@
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
 > 
-> DATE
+> November 19, 2022
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%202_11.19.22.jpg)
 > 
-> DATE
+> November 23, 2022
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%202_11.23.22.jpg)
 
 ### Paired / Mobbed Programming
 > There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
 > 
 > Mob Programming
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Mob%20Programming_Sprint%202_11.26.22.png)
 > 
 > Pair Programming: Yasir and Zhao 
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Zhao.png)
 > 
 > Pair Programming: Yasir and Christina
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Christina.png)
 > 
 > Pair Programming: Yasir and Uriel
-> IMAGE
+> 
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Uriel.png)
 
 ### Test First
 > Our team is building our product test-first. The list of tests and explanations can be found at this URL: 
@@ -299,7 +303,7 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-TEST.jpg)
 
 ### Sprint Review
-> Our team conducted a Sprint Review on DATE. We invited a stakeholder (Spanish student, Terri) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
+> Our team conducted a Sprint Review on 11/28/22. We invited a stakeholder (ChidoLingo Business Partner, Ryan) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
 
 ### Working Software
 > Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
@@ -307,23 +311,28 @@
 > Below is evidence of the working software (main site, form, database, email notification):
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/workiingsoftware.jpg)
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-DATABASE.jpg)
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/email-workingsoftware.jpg)
 > 
 
 ### Sprint Review - Stakeholder
-> One stakeholder attended the Sprint Review. The stakeholder is an existing ChidoLingo Spanish language learner (Terri). Based on feedback from the stakeholder, we revised the Product Backlog. 
+> One stakeholder attended the Sprint Review. The stakeholder is a ChidoLingo business partner (Ryan). Based on feedback from the stakeholder, we revised the Product Backlog. 
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Sprint%20Review_Sprint%202.png)
 
 ### Continuous Integration System Is Running
 > You have a Continuous Integration system running. 
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
 
 > You only work on the main/trunk/master together—there are no long-lived code branches. 
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-1.jpg)
 > 
 > The CI system automatically builds your code every time you push to main/trunk/master.
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI.jpg) 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI4.jpg)
 
