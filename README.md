@@ -294,7 +294,7 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%202_Yasir%20and%20Uriel.png)
 
 ### Test First
-> Our team is building our product test-first. The list of tests and explanations can be found at this URL: 
+> Our team is building our product test-first. Our team created 32 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
 > 
 > https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/tests/tests_chidolingo_main.py
 > 
@@ -307,7 +307,7 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-TEST.jpg)
 
 ### Sprint Review
-> Our team conducted a Sprint Review on 11/28/22. We invited a stakeholder (ChidoLingo Business Partner, Ryan) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
+> Our team conducted a Sprint Review on 11/27/22. We invited a stakeholder (ChidoLingo Business Partner, Ryan) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
 
 ### Working Software
 > Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
