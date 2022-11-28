@@ -205,7 +205,7 @@
 # Project Part 3
 
 ### Forecast
-> The Forecast for our first sprint is 16 Story Points (using the Fibonacci Scale).
+> The Forecast for our second sprint is 16 Story Points (using the Fibonacci Scale).
 
 ### Rationale For Our Forecast
 > The rationale for the forecast is as follows:
@@ -214,7 +214,7 @@
 > - Our first Sprint was 1 week and we did 8 points worth of effort (based on the revised Kanban board). 
 > - Each developer communicated the amount of time they have available during the Sprint and estimated how much effort they would thereby be able to take on.
 > - Our team took into account time we would need for Sprint Planning, Periodic Daily Scrums, Sprint Review, and a Team Retrospective when determining how much time would be available for coding. 
-> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholder (student Spanish learners and the business partners).
+> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholders (student Spanish learners and the business partners).
 
 ### Pull Stories Into Sprint Backlog
 > Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. We pulled stories from the top of our Product Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog.
@@ -224,13 +224,15 @@
 
 ### Developer Tasks
 > User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban. This Trello board is publicly accessible and can be viewed by course staff.
+> 
+> 
 
 ### Kanban Board
 > The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
 
 ### Burndown Chart
 > 
-> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%202_Complete.pdf)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%202.jpg)
 
 ### Daily Scrums
 > Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
@@ -253,7 +255,6 @@
 > - Yasir: Will link up Zhao’s code with the links to ChidoLingo.com; will push all that code into the CICD pipeline; Will insert forms into the template the Zhao creates
 > - Zhao: Will create links for top menu and add FAQ’s
 > - Zhao: Will review existing work; will respond to requests from Yasir to make any changes
-> - Yasir: Will link up Zhao’s code with the links to ChidoLingo.com; will push all that code into the CICD pipeline; Will insert forms into the template the Zhao creates
 > - Christina and Uriel: Will send information for the website inclduing FAQ’s, the conditions for the promo, and edits to the wording/location of information on the website
 
 ### Daily Scrums - Impediments 
@@ -294,12 +295,15 @@
 
 ### Test First
 > Our team is building our product test-first. The list of tests and explanations can be found at this URL: 
+> 
 > https://github.com/syedyasirkamal/agileproject/blob/main/Sprint-1/tests/tests_chidolingo_main.py
 > 
 > All files related to tests can be found here: 
+> 
 > https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
 > 
 > Below is a screenshot of 32 micro-scale unit tests in the test suite and they all pass.
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/S2-TEST.jpg)
 
 ### Sprint Review
