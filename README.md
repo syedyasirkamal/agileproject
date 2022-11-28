@@ -327,10 +327,10 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Sprint%20Review_Sprint%202.png)
 
 ### Continuous Integration System Is Running
-> We have a Continuous Integration system running as evidenced below:
+> We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
-
+> 
 > We only work on the main/trunk/master together—there are no long-lived code branches as evidenced below: 
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-1.jpg)
@@ -339,38 +339,39 @@
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI.jpg) 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI4.jpg)
-
+> 
 > The CI system automatically executes all our tests every time it builds the code as evidenced below: 
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI2.jpg)
 
-> We have provided evidence that our CI system exists and behaves properly (refer to images above).
-
 ### Continuous Delivery System Is Running
->  You have a Continuous Delivery system running. 
+>  We have a Continuous Delivery system running. We have provided evidence that our CD system exists and behaves properly (refer to images and descriptions below).
+>  
 >  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CD2.jpg)
 >  
->  When the build is "green", the CD system deploys your software to a production environment ("Production"); 
+>  When the build is "green", the CD system deploys our software to a production environment ("Production") as evidenced below:
+>   
 >  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CD.jpg)
 >
 >  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD.jpg)
-
->  when the build is "red", the CD system doesn't alter Production. 
+>
+>  When the build is "red", the CD system doesn't alter Production as evidenced below:
+>  
 >  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CD3.jpg)
 >  
->  The CD system executes additional tests of your software in Production to ensure Production is up and running successfully after deployment. 
+>  The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment as evidenced below:
+>   
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI2.jpg)
 >  
->  You have provided evidence that your CD system exists and behaves properly.
->  Some of the CI screenshots might also be relevant for this section. See all images above
+>  Some of the CI screenshots might also be relevant for this section. See all images above.
 
 ### Sprint Retrospective
-> - Our team conducted a Sprint Retrospective. 
+> - Our team conducted a Sprint Retrospective on 11/27/22.
 > - One action that we identified that would make our team significantly better is TBD.
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
 ### True User Stories
-> All of the PBIs our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+> All of the PBIs in our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
 
 ```
