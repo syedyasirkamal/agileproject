@@ -9,12 +9,12 @@ class TestCaseBase(unittest.TestCase):
 
 class TemplateTest(TestCaseBase):
     def test(self):
-        path = pl.Path("../../templates/index.html")
+        path = pl.Path("/workspace/templates/index.html")
         self.assertIsFile(path)
 
 class StaticTest(TestCaseBase):
     def test(self):
-        path = pl.Path("../../static/css/globals.css")
+        path = pl.Path("/workspace/static/css/globals.css")
         self.assertIsFile(path)
 
 if __name__ == '__main__':
