@@ -361,7 +361,7 @@
 >  
 >  The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment as evidenced below:
 >   
-> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI2.jpg)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/cd4.jpg)
 >  
 >  Some of the CI screenshots might also be relevant for this section. See all images above.
 
