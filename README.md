@@ -310,7 +310,7 @@
 > Our team conducted a Sprint Review on 11/27/22. We invited a stakeholder (ChidoLingo Business Partner, Ryan) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
 
 ### Working Software
-> Our product increment is working software. The working software is the landing page of a new webpage. The working software is publicly accessible and can be found here: http://chidopromos.com/
+> Our product increment is working software. The working software is a new website created for the purpose of showing promotional offers from ChidoLingo. There are three links on the website - one to meet the teachers, one to sign up for a free trial lesson and one to join the ChidoLingo mailing list. The working software is publicly accessible and can be found here: http://chidopromos.com/
 > 
 > Below is evidence of the working software (main site, form, database, email notification):
 > 
@@ -327,24 +327,24 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Sprint%20Review_Sprint%202.png)
 
 ### Continuous Integration System Is Running
-> You have a Continuous Integration system running. 
+> We have a Continuous Integration system running as evidenced below:
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
 
-> You only work on the main/trunk/master together—there are no long-lived code branches. 
+> We only work on the main/trunk/master together—there are no long-lived code branches as evidenced below: 
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-1.jpg)
 > 
-> The CI system automatically builds your code every time you push to main/trunk/master.
+> The CI system automatically builds our code every time we push to main/trunk/master as evidenced below:
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI.jpg) 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI4.jpg)
 
-> The CI system automatically executes all your tests every time it builds the code. 
+> The CI system automatically executes all our tests every time it builds the code as evidenced below: 
+> 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI2.jpg)
 
-> You have provided evidence that your CI system exists and behaves properly. 
-> Refer to images above
+> We have provided evidence that our CI system exists and behaves properly (refer to images above).
 
 ### Continuous Delivery System Is Running
 >  You have a Continuous Delivery system running. 
