@@ -374,4 +374,175 @@
 ### True User Stories
 > All of the PBIs in our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
 
+
+
+# Project Part 4
+
+### Forecast
+> The Forecast for our second sprint is X Story Points (using the Fibonacci Scale).
+
+### Rationale For Our Forecast
+> The rationale for the forecast is as follows:
+> - The Sprint has been timeboxed to 2 weeks.
+> - There is 1 Senior Developer and 1 Junior Developer
+> - Our second Sprint was 2 weeks and we did 16 points worth of effort. 
+> - Each developer communicated the amount of time they have available during the Sprint and estimated how much effort they would thereby be able to take on.
+> - Our team took into account time we would need for Sprint Planning, Periodic Daily Scrums, Sprint Review, and a Team Retrospective when determining how much time would be available for coding. 
+> - Our team made sure that we took on work that would deliver a vertical slice of value to the stakeholders (student Spanish learners and the business partners).
+
+### Pull Stories Into Sprint Backlog
+> Based on the forecase described above, the team has pulled User Stories from the Product Backlog into the the current Sprint Backlog. We pulled stories from the top of our Product Backlog. The aggregate size of the stories does not exceed our forecast. Only developers on our team participated in pulling stories from the Product Backlog into the Spring Backlog.
+
+### Right Size User Stories
+> Our forecasted velocity for this Sprint is 16 and the largest user story is estimated at 8 story points. Therefore the size of each sprint backlog item is no more than half of our forecasted velocity for the Sprint. None of the PBIs were too large for the sprint so we did not need to split any of them. 
+
+### Developer Tasks
+> User stories have been decomposed into Developer Tasks. The Developer Tasks are listed as checklist items in the User Story Cards within Trello. The Trello Board can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban. This Trello board is publicly accessible and can be viewed by course staff.
+
+### Kanban Board
+> The Sprint Backlog, including both the User Stories and Developer Tasks, is represented in a Kanban Board. The link for the Kanban Board is: https://trello.com/b/KLDzl54E/cuzy-kanban. Course staff can view the Kanban Board. 
+
+### Burndown Chart
+> 
+> IMAGE
+
+### Daily Scrums
+> Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
+> 
+> IMAGE
+
+### Daily Scrums - Last 24 Hours
+> During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> - Yasir:  
+> - Yasir: 
+> - Zhao:  
+> - Zhao: 
+> - Yasir and Zhao: 
+> - Uriel: 
+> - Christina: 
+
+### Daily Scrums - Next 24 Hours 
+> During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
+> - Yasir: 
+> - Yasir: 
+> - Zhao: 
+> - Zhao: 
+> - Christina and Uriel: 
+
+### Daily Scrums - Impediments 
+> During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
+> - Yasir:   
+> - Yasir:   
+> - Zhao:  
+
+### Burndown Chart - Updates 
+> During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
+> 
+> December X, 2022
+> 
+> IMAGE
+> 
+> December X, 2022
+> 
+> IMAGE
+
+### Paired / Mobbed Programming
+> There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
+> 
+> Mob Programming
+> 
+> IMAGE
+> 
+> Pair Programming: Yasir and Zhao 
+> 
+> IMAGE
+> 
+> Pair Programming: Yasir and Christina
+> 
+> IMAGE
+> 
+> Pair Programming: Yasir and Uriel
+> 
+> IMAGE
+
+### Test First
+> Our team is building our product test-first. Our team created 32 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
+> 
+> URL
+> 
+> All files related to tests can be found here: 
+> 
+> https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
+> 
+> Below is a screenshot of 32 micro-scale unit tests in the test suite and they all pass.
+> 
+> IMAGE
+
+### Sprint Review
+> Our team conducted a Sprint Review on X. We invited a stakeholder (TBD) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
+
+### Working Software
+> Our product increment is working software. The working software is a new website created for the purpose of showing promotional offers from ChidoLingo. DESCRIPTION. The working software is publicly accessible and can be found here: http://chidopromos.com/
+> 
+> Below is evidence of the working software (main site, form, database, email notification):
+> 
+> ![](MAGE)
+> 
+> ![](IMAGE)
+> 
+> ![](IMAGE)
+> 
+
+### Sprint Review - Stakeholder
+> One stakeholder attended the Sprint Review. The stakeholder is a ChidoLingo business partner (TBD). Based on feedback from the stakeholder, we revised the Product Backlog. 
+> 
+> ![](IMAGE)
+
+### Continuous Integration System Is Running
+> We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
+> 
+> ![](IMAGE)
+> 
+> We only work on the main/trunk/master together—there are no long-lived code branches as evidenced below: 
+> 
+> ![](IMAGE)
+> 
+> The CI system automatically builds our code every time we push to main/trunk/master as evidenced below:
+> 
+> ![](IMAGE)
+>  
+> The CI system automatically executes all our tests every time it builds the code as evidenced below: 
+> 
+> ![](IMAGE)
+
+### Continuous Delivery System Is Running
+>  We have a Continuous Delivery system running. We have provided evidence that our CD system exists and behaves properly (refer to images and descriptions below).
+>  
+>  ![](IMAGE)
+>  
+>  When the build is "green", the CD system deploys our software to a production environment ("Production") as evidenced below:
+>   
+>  ![](IMAGE)
+>
+>  ![](IMAGE)
+>
+>  When the build is "red", the CD system doesn't alter Production as evidenced below:
+>  
+> ![](IMAGE)
+>  
+> The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment as evidenced below:
+>   
+> ![](IMAGE)
+>  
+>  Some of the CI screenshots might also be relevant for this section. See all images above.
+
+### Sprint Retrospective
+> - Our team conducted a Sprint Retrospective on 11/27/22.
+> - One action that we identified that would make our team significantly better is to articulate an MVP for our product. By articulating an MVP, our team will be able to focus its time and efforts on those features so that we don't waste time on work that it not as important or valuable.  
+> - Our action plan is articulated as a PBI, including User Acceptance Criteria.
+> - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
+
+### True User Stories
+> All of the PBIs in our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
+
 ```
