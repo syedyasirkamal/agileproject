@@ -24,7 +24,7 @@ def before_all(context):
     context.pa_app = threading.Thread(target=context.server.serve_forever)
     context.pa_app.start()
 
-    context.browser = webdriver.Chrome('C:\Users\syedy\Downloads\chromedriver.exe')
+    context.browser = webdriver.Chrome(options=chrome_options, executable_path='C:\Users\syedy\Downloads\chromedriver.exe')
     context.browser.set_page_load_timeout(time_to_wait=200)
 
 
