@@ -13,7 +13,7 @@ app=application.app
 import chromedriver_autoinstaller
 
 
-ser = Service("C:/Users/syedy/Downloads/chromedriver.exe")
+ser = Service("C:/Users/syedy/Downloads/chromedriver")
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
