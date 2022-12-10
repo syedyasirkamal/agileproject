@@ -14,20 +14,22 @@ app=application.app
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
+s = Service('C:/Users/syedy/Downloads/chromedriver.exe')
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
 chrome_options.add_argument("--proxy-server='direct://'")
 chrome_options.add_argument("--proxy-bypass-list=*")
 
-
+s = Service('C:/Users/hp/Downloads/chromedriver/chromedriver.exe')
 def before_all(context):
     context.server = simple_server.WSGIServer(("", 5000), WSGIRequestHandler)
     context.server.set_app(app)
     context.pa_app = threading.Thread(target=context.server.serve_forever)
     context.pa_app.start()
 
-    context.browser = webdriver.Chrome(options=chrome_options, service=Service(ChromeDriverManager().install()))
+    context.browser = webdriver.Chrome(options=chrome_options, service=s)
     context.browser.set_page_load_timeout(time_to_wait=200)
 
 
