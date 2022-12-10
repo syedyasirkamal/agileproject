@@ -22,7 +22,6 @@ chrome_options.add_argument('--no-proxy-server')
 chrome_options.add_argument("--proxy-server='direct://'")
 chrome_options.add_argument("--proxy-bypass-list=*")
 
-s = Service('C:/Users/hp/Downloads/chromedriver/chromedriver.exe')
 def before_all(context):
     context.server = simple_server.WSGIServer(("", 5000), WSGIRequestHandler)
     context.server.set_app(app)
