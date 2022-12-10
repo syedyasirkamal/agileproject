@@ -22,10 +22,9 @@ def step_impl(context):
 @then(u'I see an Order Now button')
 def step_impl(context):
     """
-        Find the input button on the html page which has value = Submit
-        and invoke .click()
+        Find the Order Now button on the html page with the relevant value
     """
-    assert context.browser.find_element_by_xpath(f"//input[@type='submit' and @value='Order Now!']")
+    assert context.browser.find_element("xpath", f"//input[@type='submit' and @value='Order Now!']")
 
 
 

@@ -11,6 +11,7 @@ app=application.app
 
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
