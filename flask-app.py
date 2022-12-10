@@ -18,7 +18,7 @@ load_dotenv()
 
 app = Flask(__name__,template_folder='templates')
 app.secret_key = 'the random string'
-stripe.api_key = os.environ['STRIPE_SECRET_KEY']
+stripe.api_key = 'sk_test_51KKGRcLkqWIcqBPS60b1WRaYt7xZXxPJuYN0CIYoTqqy3YPKPltxx5wYMn2VWe6qt8zDjhNtlKf5Np9pZZARYYu500lBMB5YZP'
 Bootstrap(app)
 datepicker(app)
 
@@ -58,19 +58,35 @@ mail = Mail(app)
 #         Checkout
 ###############################################
 
+
+###############################################
+#         Checkout
+###############################################
+
 products = {
-    'megatutorial': {
-        'name': 'The Flask Mega-Tutorial',
-        'price': 3900,
+    'promo': {
+        'title': 'Buy for yourself',
+        'name': 'ChidoLingo Promo Purchase',
+        'price': 72000,
+        'discprice': 504,
+        'per': 'session*',
+        'desc': '36 private lessons',
+        'desc1': '3 months',
+        'desc2': '30% cash back',
+        'desc3': '*Price after completing 36 lessons'
     },
-    'support': {
-        'name': 'Python 1:1 support',
-        'price': 20000,
-        'per': 'hour',
+    'gift': {
+        'title': 'Gift someone',
+        'name': 'ChidoLingo Promo Challenge Gift Card',
+        'price': 648,
+        'discprice': 648,
+        'per': 'session',
+        'desc': 'Gift up to 12 lessons',
+        'desc1': '1 month',
         'adjustable_quantity': {
             'enabled': True,
             'minimum': 1,
-            'maximum': 4,
+            'maximum': 12,
         },
     },
 }
@@ -79,6 +95,8 @@ products = {
 @app.route('/purchase')
 def purchase():
     return render_template('purchase.html', products=products)
+
+
 
 
 @app.route('/order/<product_id>', methods=['POST'])
@@ -141,6 +159,7 @@ def new_event():
                 f'${item.amount_total/100:.02f} {item.currency.upper()}')
 
     return {'success': True}
+
 
 
 

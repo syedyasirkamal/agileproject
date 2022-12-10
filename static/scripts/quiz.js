@@ -180,13 +180,13 @@ var quiz = {
         quiz.hAns.innerHTML = "Book your trial <a href='/trial'>here</a> or Purchase <a href='/purchase'>now</a>";
         score_message=`You have answered ${quiz.score} of ${quiz.data.length} correctly.`
         if (quiz.score <=3){
-          quiz.hQn.innerHTML = score_message + "You seem to be at lower elementary level";
+          quiz.hQn.innerHTML = score_message + " You seem to be at a lower elementary level";
         } else if (quiz.score > 3 && quiz.score < 6) {
-          quiz.hQn.innerHTML = score_message + "You seem to be at upper elementary level";
+          quiz.hQn.innerHTML = score_message + " You seem to be at an upper elementary level";
         } else if (quiz.score > 5 && quiz.score < 9) {
-          quiz.hQn.innerHTML = score_message + "You seem to be at lower intermediate level";
+          quiz.hQn.innerHTML = score_message + " You seem to be at a lower intermediate level";
         } else if (quiz.score > 8 && quiz.score <= 10) {
-          quiz.hQn.innerHTML = score_message + "You seem to be at upper intermediate level";
+          quiz.hQn.innerHTML = score_message + " You seem to be at an upper intermediate level";
         }
       }
     }, 1000);
