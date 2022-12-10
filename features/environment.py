@@ -11,12 +11,12 @@ app=application.app
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
 chrome_options.add_argument("--proxy-server='direct://'")
 chrome_options.add_argument("--proxy-bypass-list=*")
+
 
 def before_all(context):
     context.server = simple_server.WSGIServer(("", 5000), WSGIRequestHandler)
