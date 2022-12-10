@@ -9,10 +9,8 @@ import importlib
 application = importlib.import_module("flask-app")
 app=application.app
 
-import chromedriver_autoinstaller
 
-
-driver = chromedriver_autoinstaller.install()
+driver = webdriver.Chrome(ChromeDriverManager().install())
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
@@ -26,7 +24,7 @@ def before_all(context):
     context.pa_app = threading.Thread(target=context.server.serve_forever)
     context.pa_app.start()
 
-    context.browser = webdriver.Chrome(options=chrome_options, executable_path=driver)
+    context.browser = webdriver.Chrome(options=chrome_options, executable_path="Cmedriver.exe")
     context.browser.set_page_load_timeout(time_to_wait=200)
 
 
