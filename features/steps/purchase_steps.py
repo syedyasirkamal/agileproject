@@ -17,3 +17,15 @@ def step_impl(context):
     """
     assert context.browser.current_url == 'http://127.0.0.1:5000/purchase'
     assert 'Order Now!' in context.browser.page_source
+
+
+@then(u'I see an Order Now button')
+def step_impl(context):
+    """
+        Find the input button on the html page which has value = Submit
+        and invoke .click()
+    """
+    assert context.browser.find_element_by_xpath(f"//input[@type='submit' and @value='Order Now!']")
+
+
+
