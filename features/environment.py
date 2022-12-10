@@ -10,7 +10,7 @@ application = importlib.import_module("flask-app")
 app=application.app
 
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = ChromeDriverManager().install()
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-proxy-server')
