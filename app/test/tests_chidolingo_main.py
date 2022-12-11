@@ -257,38 +257,42 @@ class MyTestCase(unittest.TestCase, assertion_plugin.Exceptions):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'LEVEL QUIZ', response.data)
 
+    def test_user_quiz_displays(self):
+        response = self.app.get('/quiz')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'LEVEL QUIZ', response.data)
 
-def test_landing_purchase_link(client):
-    landing = client.get("/")
-    html = landing.data.decode()
-    assert '/purchase' in html
+    def test_landing_purchase_link(self):
+        landing = self.app.get("/")
+        html = landing.data.decode()
+        assert '/purchase' in html
 
 
-def test_product_title(client):
-    landing = client.get("/purchase")
-    html = landing.data.decode()
-    assert 'class="pricing-title"' in html
+    def test_product_title(self):
+        landing = self.app.get("/purchase")
+        html = landing.data.decode()
+        assert 'class="pricing-title"' in html
 
 
 # Check that Order Now button exists on purchase page
-def test_order_button(client):
-    landing = client.get("/purchase")
-    html = landing.data.decode()
-    assert 'type="submit" value="Order Now!">' in html
+    def test_order_button(self):
+        landing = self.app.get("/purchase")
+        html = landing.data.decode()
+        assert 'type="submit" value="Order Now!">' in html
 
 
 # Check second Purchase button exists on home page
-def test_landing_second_purchase_button(client):
-    landing = client.get("/")
-    html = landing.data.decode()
-    assert '<div id="purchase-button"' in html
+    def test_landing_second_purchase_button(self):
+        landing = self.app.get("/")
+        html = landing.data.decode()
+        assert '<div id="purchase-button"' in html
 
 
 # Check third Purchase button exists on home page
-def test_landing_third_purchase_button(client):
-    landing = client.get("/")
-    html = landing.data.decode()
-    assert '<div id="purchase-button-2"' in html
+    def test_landing_third_purchase_button(self):
+        landing = self.app.get("/")
+        html = landing.data.decode()
+        assert '<div id="purchase-button-2"' in html
 
 
 if __name__ == '__main__':
