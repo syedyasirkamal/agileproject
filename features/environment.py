@@ -12,7 +12,7 @@ app=application.app
 
 
 # Use the chrome driver specific to your version of Chrome browser and put it in ./driver directory
-CHROME_DRIVER = os.path.join(os.path.join(os.path.dirname(__file__), 'driver'), 'chromedriver.exe')
+CHROME_DRIVER = webdriver.Chrome(ChromeDriverManager().install())
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
