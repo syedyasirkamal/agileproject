@@ -1,0 +1,1195 @@
+/* screen - web-code */
+
+.web-code {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5012px;
+  width: 1728px;
+}
+
+.web-code .rectangle {
+  background-color: var(--hibiscus);
+  height: 66px;
+  width: 1728px;
+}
+
+.web-code .overlap-group9 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 98px;
+}
+
+.web-code .chidolingo-logo-1 {
+  height: 48px;
+  object-fit: cover;
+  width: 194px;
+}
+
+.web-code .meet-our-teachers {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 158px;
+  min-height: 27px;
+  min-width: 178px;
+}
+
+.web-code .free-lesson-sign-up {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 104px;
+  min-height: 27px;
+  min-width: 197px;
+}
+
+.web-code .join-our-mailing-lis {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 87px;
+  min-height: 54px;
+  min-width: 196px;
+}
+
+.web-code .overlap-group7 {
+  align-items: flex-start;
+  background-color: var(--yellow-orange);
+  display: flex;
+  height: 66px;
+  margin-left: 71px;
+  min-width: 198px;
+  padding: 19px 29px;
+}
+
+.web-code .purchase-now-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 27px;
+}
+
+.web-code .place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  margin-left: 54px;
+  min-height: 27px;
+  min-width: 57px;
+}
+
+.web-code .flex-col {
+  align-items: flex-end;
+  background-color: var(--boston-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  min-height: 1217px;
+  padding: 88px 75px;
+  width: 1728px;
+}
+
+.web-code .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 642px;
+  margin-top: 117px;
+  min-width: 1559px;
+}
+
+.web-code .flex-col-1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  min-height: 597px;
+  width: 370px;
+}
+
+.web-code .overlap-group13 {
+  height: 84px;
+  position: relative;
+  width: 370px;
+}
+
+.web-code .rectangle-10 {
+  background: linear-gradient(180deg, rgb(130.78, 62, 243) 18.32%, rgb(185, 40, 94) 100%);
+  border-radius: 47px;
+  height: 78px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 370px;
+}
+
+.web-code .chido-lingo-challenge {
+  left: 49px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 270px;
+}
+
+.web-code .chip-1 {
+  height: 441px;
+  object-fit: cover;
+  width: 328px;
+}
+
+.web-code .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+  min-height: 642px;
+  width: 690px;
+}
+
+.web-code .title {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 80px;
+  min-height: 240px;
+  min-width: 672px;
+  text-align: center;
+}
+
+.web-code .span-1 {
+  color: var(--yellow-orange);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xxxl);
+  font-weight: 900;
+}
+
+.web-code .overlap-group {
+  height: 210px;
+  margin-left: 17.0px;
+  margin-top: 74px;
+  position: relative;
+  width: 475px;
+}
+
+.web-code .line-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 68px;
+  width: 475px;
+}
+
+.web-code .line-2 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 134px;
+  width: 475px;
+}
+
+.web-code .group-8 {
+  align-items: flex-start;
+  display: flex;
+  gap: 11px;
+  height: 80px;
+  left: 36px;
+  min-width: 405px;
+  position: absolute;
+  top: 0;
+}
+
+.web-code .group {
+  align-items: center;
+  align-self: center;
+  background-color: var(--yellow-orange);
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  min-width: 30px;
+  padding: 0 5.5px;
+}
+
+.web-code .vector-4 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .address {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 362px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-9 {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  height: 80px;
+  left: 116px;
+  min-width: 229px;
+  position: absolute;
+  top: 130px;
+}
+
+.web-code .vector-4-1 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .x30-cash-back {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 190px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-7 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 80px;
+  left: 77px;
+  min-width: 332px;
+  position: absolute;
+  top: 63px;
+}
+
+.web-code .vector-4-2 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .native-spanish-teachers {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 284px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--sycamore);
+  border-radius: 45px;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  margin-right: 5.0px;
+  margin-top: 28px;
+  min-width: 685px;
+  padding: 14px 164px;
+}
+
+.web-code .purchase-now {
+  letter-spacing: 0;
+  line-height: 60px;
+  text-align: center;
+  white-space: nowrap;
+  width: 352px;
+}
+
+.web-code .flower-1 {
+  align-self: center;
+  height: 567px;
+  margin-left: 122px;
+  margin-top: 3.0px;
+  object-fit: cover;
+  width: 319px;
+}
+
+.web-code .flex-row-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 236px;
+  margin-right: 91.0px;
+  min-width: 1269px;
+}
+
+.web-code .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+  min-height: 236px;
+  width: 453px;
+}
+
+.web-code .overlap-group1 {
+  align-self: flex-end;
+  height: 80px;
+  position: relative;
+  width: 352px;
+}
+
+.web-code .rectangle-10-1 {
+  background-color: var(--yellow-orange);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 352px;
+}
+
+.web-code .schedule-a-free-lesson {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.web-code .rating {
+  height: 77px;
+  object-fit: cover;
+  width: 233px;
+}
+
+.web-code .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-left: 55px;
+  margin-top: 6px;
+  min-height: 206px;
+  width: 353px;
+}
+
+.web-code .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--boston-blue);
+  border-radius: 47px;
+  display: flex;
+  height: 74px;
+  margin-left: 1px;
+  min-width: 352px;
+  padding: 11px 37px;
+}
+
+.web-code .e-mail-notification-fomr {
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 50px;
+  min-width: 276px;
+  text-align: center;
+}
+
+.web-code .overlap-group12 {
+  height: 80px;
+  position: relative;
+  width: 352px;
+}
+
+.web-code .rectangle-10-2 {
+  background-color: var(--hibiscus);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 352px;
+}
+
+.web-code .e-mail-notification-fomr-1 {
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.web-code .overlap-group3 {
+  height: 80px;
+  margin-left: 56px;
+  position: relative;
+  width: 352px;
+}
+
+.web-code .rectangle-10-3 {
+  background-color: var(--hibiscus);
+  border-radius: 47px;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 352px;
+}
+
+.web-code .e-mail-notification-fomr-2 {
+  left: 68px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.web-code .overlap-group10 {
+  height: 2003px;
+  position: relative;
+  width: 1728px;
+}
+
+.web-code .rectangle-6 {
+  background-color: var(--boston-blue);
+  height: 1304px;
+  left: 0;
+  position: absolute;
+  top: 699px;
+  width: 1728px;
+}
+
+.web-code .rectangle-10-4 {
+  background-color: var(--sycamore);
+  height: 460px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.web-code .book-1 {
+  height: 303px;
+  left: 154px;
+  object-fit: cover;
+  position: absolute;
+  top: 57px;
+  width: 295px;
+}
+
+.web-code .how-does-the-challenge-work {
+  left: 496px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 152px;
+}
+
+.web-code .span1 {
+  color: var(--yellow-orange);
+  font-family: var(--font-family-nunito);
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.web-code .find-out-how-you-can {
+  left: 496px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 281px;
+  white-space: nowrap;
+}
+
+.web-code .lecciones-privadas-d {
+  left: 496px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 88px;
+  white-space: nowrap;
+}
+
+.web-code .chip2-1 {
+  height: 325px;
+  left: 1141px;
+  object-fit: cover;
+  position: absolute;
+  top: 67px;
+  width: 512px;
+}
+
+.web-code .rectangle-11 {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 341px;
+  left: 183px;
+  position: absolute;
+  top: 406px;
+  width: 439px;
+}
+
+.web-code .signup-1 {
+  height: 82px;
+  left: 369px;
+  object-fit: cover;
+  position: absolute;
+  top: 433px;
+  width: 82px;
+}
+
+.web-code .start-with-a-free-lesson {
+  left: 239px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 512px;
+  white-space: nowrap;
+}
+
+.web-code .sign-up-for-a-free-4 {
+  color: var(--black);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  left: 263px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 562px;
+}
+
+.web-code .span1-1 {
+  line-height: 40px;
+}
+
+.web-code .rectangle-11-1 {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 341px;
+  left: 688px;
+  position: absolute;
+  top: 406px;
+  width: 439px;
+}
+
+.web-code .x2-create-a-learning-plan {
+  left: 761px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 512px;
+  white-space: nowrap;
+}
+
+.web-code .choose-from-our-stan {
+  left: 764px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 582px;
+}
+
+.web-code .project-plan-1 {
+  height: 84px;
+  left: 871px;
+  object-fit: cover;
+  position: absolute;
+  top: 429px;
+  width: 84px;
+}
+
+.web-code .rectangle-11-2 {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 341px;
+  left: 1193px;
+  position: absolute;
+  top: 406px;
+  width: 439px;
+}
+
+.web-code .x3-begin-your-lessons {
+  left: 1287px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 512px;
+  white-space: nowrap;
+}
+
+.web-code .book-your-classes-a {
+  left: 1247px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 582px;
+}
+
+.web-code .booking-1 {
+  height: 74px;
+  left: 1376px;
+  object-fit: cover;
+  position: absolute;
+  top: 441px;
+  width: 74px;
+}
+
+.web-code .join-the-challenge-today {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 572px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 834px;
+  white-space: nowrap;
+}
+
+.web-code .rectangle-21 {
+  background-color: var(--hibiscus);
+  height: 522px;
+  left: 101px;
+  position: absolute;
+  top: 1201px;
+  width: 677px;
+}
+
+.web-code .x228-second-month {
+  left: 356px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 1559px;
+  white-space: nowrap;
+}
+
+.web-code .x228-third-month {
+  left: 364px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 1637px;
+  white-space: nowrap;
+}
+
+.web-code .rectangle-22 {
+  height: 136px;
+  left: 101px;
+  position: absolute;
+  top: 1201px;
+  width: 677px;
+}
+
+.web-code .our-program-include {
+  color: var(--yellow-orange);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 944px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 934px;
+  white-space: nowrap;
+}
+
+.web-code .group-14 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 150px;
+  left: 337px;
+  min-width: 210px;
+  position: absolute;
+  top: 1375px;
+}
+
+.web-code .price {
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-top: -1px;
+  min-width: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .flex-col-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1px;
+  min-height: 128px;
+  width: 173px;
+}
+
+.web-code .number {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: 96px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 60px;
+  min-width: 173px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .due-now {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 4px;
+  min-width: 165px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .icon-check_mark {
+  height: 8px;
+  left: 318px;
+  position: absolute;
+  top: 1586px;
+  width: 14px;
+}
+
+.web-code .icon-check_mark-1 {
+  height: 8px;
+  left: 318px;
+  position: absolute;
+  top: 1664px;
+  width: 14px;
+}
+
+.web-code .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--sycamore);
+  border-radius: 45px;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  left: 95px;
+  min-width: 685px;
+  padding: 14px 164px;
+  position: absolute;
+  top: 1761px;
+}
+
+.web-code .rectangle-19 {
+  background-color: var(--white);
+  border-radius: 35px;
+  height: 502px;
+  left: 832px;
+  position: absolute;
+  top: 1046px;
+  width: 792px;
+}
+
+.web-code .group-container {
+  height: 460px;
+  left: 872px;
+  position: absolute;
+  top: 1066px;
+  width: 694px;
+}
+
+.web-code .group-17 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 642px;
+  position: absolute;
+  top: 0;
+}
+
+.web-code .icon-check_mark-2 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .x1-hour-lessons-with {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 588px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-23 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 515px;
+  position: absolute;
+  top: 65px;
+}
+
+.web-code .icon-check_mark-3 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .exclusive-content-at-chido-universidad {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 461px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-24 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 559px;
+  position: absolute;
+  top: 128px;
+}
+
+.web-code .icon-check_mark-4 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .personalized-and-str {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 505px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-25 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 561px;
+  position: absolute;
+  top: 191px;
+}
+
+.web-code .icon-check_mark-5 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .listening-excercises {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 507px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-26 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 694px;
+  position: absolute;
+  top: 254px;
+}
+
+.web-code .icon-check_mark-6 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .exercises-games-wi {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 640px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-27 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 594px;
+  position: absolute;
+  top: 317px;
+}
+
+.web-code .icon-check_mark-7 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .written-homework-rev {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 540px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .group-28 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 80px;
+  left: 0;
+  min-width: 338px;
+  position: absolute;
+  top: 380px;
+}
+
+.web-code .icon-check_mark-8 {
+  height: 10px;
+  width: 18px;
+}
+
+.web-code .weekly-chido-chat-club {
+  letter-spacing: 0;
+  line-height: 80px;
+  margin-top: -1px;
+  min-width: 284px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.web-code .rectangle-20 {
+  background: linear-gradient(180deg, rgb(131, 62, 243) 0%, rgb(185, 40, 94) 100%);
+  height: 140px;
+  left: 98px;
+  position: absolute;
+  top: 1046px;
+  width: 682px;
+}
+
+.web-code .chido-lingo-challenge-earn-30-cashback {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: 32px;
+  font-weight: 700;
+  left: 275px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 1071px;
+}
+
+.web-code .address-1 {
+  color: var(--black);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  left: 326px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 1223px;
+}
+
+.web-code .line-3 {
+  height: 1px;
+  left: 284px;
+  position: absolute;
+  top: 1629px;
+  width: 291px;
+}
+
+.web-code .artboard-234x-1 {
+  height: 215px;
+  left: 1140px;
+  object-fit: cover;
+  position: absolute;
+  top: 1636px;
+  width: 214px;
+}
+
+.web-code .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  gap: 159px;
+  height: 191px;
+  margin-right: 9.0px;
+  margin-top: 80px;
+  min-width: 1507px;
+}
+
+.web-code .audigfono-600x563 {
+  align-self: flex-start;
+  height: 189px;
+  object-fit: cover;
+  width: 202px;
+}
+
+.web-code .the-most-important-r {
+  color: var(--black);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xxl);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1px;
+  min-height: 152px;
+  min-width: 795px;
+  text-align: center;
+}
+
+.web-code .span1-2 {
+  color: var(--yellow-orange);
+}
+
+.web-code .calavera-600x593 {
+  height: 190px;
+  object-fit: cover;
+  width: 192px;
+}
+
+.web-code .flex-row-3 {
+  align-items: center;
+  display: flex;
+  gap: 634px;
+  margin-right: 10.0px;
+  margin-top: 134px;
+  min-width: 912px;
+}
+
+.web-code .finish-flag {
+  height: 128px;
+  margin-bottom: 2.0px;
+  object-fit: cover;
+  width: 128px;
+}
+
+.web-code .attendance-1 {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.web-code .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 163px;
+  height: 34px;
+  margin-left: 110.0px;
+  margin-top: 60px;
+  min-width: 1388px;
+}
+
+.web-code .the-3-months-start-a {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  min-width: 483px;
+  text-align: center;
+}
+
+.web-code .take-lesson-with-dif {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  min-width: 742px;
+  text-align: center;
+}
+
+.web-code .x-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 625px;
+  height: 156px;
+  margin-right: 19.0px;
+  margin-top: 105px;
+  min-width: 925px;
+}
+
+.web-code .teacher-150x150 {
+  align-self: flex-end;
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.web-code .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 293px;
+  height: 33px;
+  margin-right: 117.0px;
+  margin-top: 55px;
+  min-width: 1259px;
+}
+
+.web-code .attend-all-your-clas {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  min-width: 581px;
+  text-align: center;
+}
+
+.web-code .dont-missreschedule-any-lesson {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  min-width: 385px;
+  text-align: center;
+}
+
+.web-code .overlap-group11 {
+  align-items: flex-end;
+  background-color: var(--hibiscus);
+  display: flex;
+  flex-direction: column;
+  margin-top: 196px;
+  min-height: 400px;
+  padding: 37px 656px;
+  width: 1728px;
+}
+
+.web-code .chipbook-1 {
+  align-self: center;
+  height: 236px;
+  margin-left: 58.0px;
+  margin-top: 25px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.web-code .wave-1 {
+  height: 65px;
+  object-fit: cover;
+  width: 358px;
+}

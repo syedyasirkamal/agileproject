@@ -10,7 +10,9 @@ application = importlib.import_module("flask-app")
 app=application.app
 
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+
+# Use the chrome driver specific to your version of Chrome browser and put it in ./driver directory
+CHROME_DRIVER = os.path.join(os.path.join(os.path.dirname(__file__), 'driver'), 'chromedriver.exe')
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -25,7 +27,7 @@ def before_all(context):
     context.pa_app = threading.Thread(target=context.server.serve_forever)
     context.pa_app.start()
 
-    context.browser = webdriver.Chrome(options=chrome_options, executable_path=driver)
+    context.browser = webdriver.Chrome(options=chrome_options, executable_path=CHROME_DRIVER)
     context.browser.set_page_load_timeout(time_to_wait=200)
 
 

@@ -54,10 +54,6 @@ mail = Mail(app)
 
 
 
-###############################################
-#         Checkout
-###############################################
-
 
 ###############################################
 #         Checkout
@@ -195,6 +191,16 @@ def index():
 @app.route('/checkout', methods=['GET'])
 def checkout():
     return render_template("checkout.html")
+
+
+@app.route('/quiz')
+def quiz():
+    return render_template('quiz.html')
+
+
+@app.route('/faqs')
+def faqs():
+    return render_template('faqs.html')
 
 
 @app.route('/trial', methods=["GET", "POST"])

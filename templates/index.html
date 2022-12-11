@@ -8,47 +8,300 @@
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/web-code.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styleguide.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/globals.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/colorbox.css')}}">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="{{url_for('static', filename='scripts/jquery.colorbox.js')}}"></script>
+      <script>
+			$(document).ready(function(){
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;900&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="{{url_for('static', filename='css/faqs-style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/macbook-pro-16-1.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styleguide.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/globals.css')}}" />
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+
   </head>
   <body style="margin: 0; background: #ffffff">
-    <input type="hidden" id="anPageName" name="page" value="macbook-pro-16-1" />
+    <input type="hidden" id="anPageName" name="page" value="web-code" />
     <div class="container-center-horizontal">
-      <div class="macbook-pro-16-1 screen">
-        <div class="rectangle-1"></div>
-        <div class="navbar nunito-black-eerie-black-20px">
+      <div class="web-code screen">
+        <div class="rectangle"></div>
+        <div class="overlap-group9 nunito-black-eerie-black-20px">
           <img class="chidolingo-logo-1" src="{{url_for('static', filename='img/chidolingo-logo-1-1@2x.png')}}" alt="Chidolingo logo 1" />
-     <div class="navbar-link-meet-our-teachers">
-     <a href="#" onClick="MyWindow=window.open('https://chidolingo.com/private-tutoring-online/','MyWindow','width=600,height=300'); return false;">
-         <span class="nunito-black-eerie-black-20px">Meet our Teachers</span></a>
+            <a class='iframe' href="https://chidolingo.com/private-tutoring-online/"><div class="meet-our-teachers"><span class="nunito-black-eerie-black-20px">Meet our Teachers</span></div></a>
+            <a class='iframe' href="/trial"><div class="free-lesson-sign-up"><span class="nunito-black-eerie-black-20px">Free Lesson Sign Up</span></div></a>
+          <a class='iframe' href="/signup"><p class="join-our-mailing-lis">
+            <span class="nunito-black-eerie-black-20px">Join our Mailing List<br />for Exclusive Offers</span>
+          </p></a>
+          <div class="overlap-group7">
+            <a href="/purchase" target="_blank"><div class="purchase-now-1 nunito-black-eerie-black-20px">
+              <span class="nunito-black-eerie-black-20px">Purchase Now</span>
+            </div></a>
           </div>
-          <div class="navbar-link-free-lesson-sign-up">
-                 <a href="#" onClick="MyWindow=window.open('/trial','MyWindow','width=600,height=800'); return false;">
-        <span class="nunito-black-eerie-black-20px">Free Lesson Sign Up</span></a>
-          </div>
-                      <div class="navbar-link-free-lesson-sign-up">
-                 <a href="#" onClick="MyWindow=window.open('/purchase','MyWindow','width=600,height=800'); return false;">
-        <span class="nunito-black-eerie-black-20px">Purchase</span></a>
-          </div>
-          <div class="navbar-link-join-our-mailing-list">
-                  <a href="#" onClick="MyWindow=window.open('/signup','MyWindow','width=600,height=300'); return false;">
-        <span class="nunito-black-eerie-black-20px">Join our Mailing List</span></a>
-          </div>
-           <div class="navbar-link-place"><a href="/"><span class="nunito-black-eerie-black-20px">Home</span></a>
-            </div>
+            <a href="/"><div class="place"><span class="nunito-black-eerie-black-20px">Home</span></div></a>
         </div>
-        <div class="overlap-group4">
-
-           <div id="content">{% block content %}{% endblock %}</div>
-          <img class="banner-website-1" src="{{url_for('static', filename='img/banner-website-1-1@2x.png')}}" alt="banner-website 1" />
-
-            <img class="chipbook-1" src="{{url_for('static', filename='img/chipbook-1-1@2x.png')}}" alt="Chipbook 1" />
+        <div class="flex-col">
+          <div class="flex-row">
+            <div class="flex-col-1">
+              <div class="overlap-group13">
+                <div class="rectangle-10"></div>
+                <div class="chido-lingo-challenge nunito-black-white-24px">
+                  <span class="nunito-black-white-24px">ChidoLingo Challenge</span>
+                </div>
+              </div>
+              <img class="chip-1" src="{{url_for('static', filename='img/chip-1-1@2x.png')}}" alt="Chip 1" />
+            </div>
+            <div class="flex-col-2">
+              <p class="title nunito-black-white-64px">
+                <span class="span-1">Improve your Spanish<br /></span
+                ><span class="nunito-black-white-64px">for 3 months and </span
+                ><span class="nunito-black-white-64px">get<br /></span><span class="span-1">30% Cash Back!</span>
+              </p>
+              <div class="overlap-group">
+                <img class="line-1" src="{{url_for('static', filename='img/line-1-1@2x.png')}}" alt="Line 1" />
+                <img class="line-2" src="{{url_for('static', filename='img/line-1-1@2x.png')}}" alt="Line 2" />
+                <div class="group-8">
+                  <div class="group"><img class="vector-4" src="{{url_for('static', filename='img/vector-4-2@2x.png')}}" alt="Vector 4" /></div>
+                  <p class="address nunito-black-white-24px">
+                    <span class="nunito-black-white-24px">36 Private Lessons In 3 Months</span>
+                  </p>
+                </div>
+                <div class="group-9">
+                  <div class="group"><img class="vector-4-1" src="{{url_for('static', filename='img/vector-4-2@2x.png')}}" alt="Vector 4" /></div>
+                  <div class="x30-cash-back nunito-black-white-24px">
+                    <span class="nunito-black-white-24px">30% Cash Back*</span>
+                  </div>
+                </div>
+                <div class="group-7">
+                  <div class="group"><img class="vector-4-2" src="{{url_for('static', filename='img/vector-4-2@2x.png')}}" alt="Vector 4" /></div>
+                  <div class="native-spanish-teachers nunito-black-white-24px">
+                    <span class="nunito-black-white-24px">Native Spanish Teachers</span>
+                  </div>
+                </div>
+              </div>
+              <div class="overlap-group6">
+                <a href="/purchase" target="_blank"><div id="purchase-button" class="purchase-now nunito-black-white-36px">
+                  <span class="nunito-black-white-36px">Purchase Now</span>
+                </div></a>
+              </div>
+            </div>
+            <img class="flower-1" src="{{url_for('static', filename='img/flower-1-1@2x.png')}}" alt="Flower 1" />
+          </div>
+          <div class="flex-row-1">
+            <div class="flex-col-3">
+              <div class="overlap-group1">
+                <div class="rectangle-10-1"></div>
+                <a class='iframe' href="/trial"><div class="schedule-a-free-lesson nunito-black-black-24px">
+                  <span class="nunito-black-black-24px">Schedule a Free Lesson</span>
+                </div></a>
+              </div>
+              <img class="rating" src="{{url_for('static', filename='img/rating-1@2x.png')}}" alt="Rating" />
+            </div>
+            <div class="overlap-group-container">
+              <a class='iframe' href="/quiz"><div class="overlap-group2">
+                <p class="e-mail-notification-fomr nunito-black-black-24px">
+                  <span class="nunito-black-white-24px">Test your Level!</span>
+                </p>
+              </div></a>
+              <div class="overlap-group12">
+                <a class='iframe' href="/faqs"><div class="rectangle-10-2"></div>
+                <div class="e-mail-notification-fomr-1 nunito-black-white-24px">
+                  <span class="nunito-black-white-24px">FAQs</span>
+                </div></a>
+              </div>
+            </div>
+            <div class="overlap-group3">
+              <div class="rectangle-10-3"></div>
+              <a class='iframe' href="https://chidolingo.com/private-tutoring-online/"><div class="e-mail-notification-fomr-2 nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Meet our Teachers</span>
+              </div></a>
+            </div>
+          </div>
+        </div>
+        <div class="rectangle"></div>
+        <div class="overlap-group10">
+          <div class="rectangle-6"></div>
+          <div class="rectangle-10-4"></div>
+          <img class="book-1" src="{{url_for('static', filename='img/book-1-1@2x.png')}}" alt="Book 1" />
+          <div class="how-does-the-challenge-work nunito-black-white-55px">
+            <span class="nunito-black-white-55px">How does </span><span class="span1">The<br />Challenge</span
+            ><span class="nunito-black-white-55px"> work?</span>
+          </div>
+          <p class="find-out-how-you-can nunito-black-eerie-black-24px">
+            <span class="nunito-black-eerie-black-24px">Find out how you can start learning with us.</span>
+          </p>
+          <p class="lecciones-privadas-d nunito-black-eerie-black-24px">
+            <span class="nunito-black-eerie-black-24px">Lecciones privadas de Inglés en Chidolingo</span>
+          </p>
+          <img class="chip2-1" src="{{url_for('static', filename='img/chip2-1-1@2x.png')}}" alt="Chip2 1" />
+          <div class="rectangle-11"></div>
+          <img class="signup-1" src="{{url_for('static', filename='img/signup-1-1@2x.png')}}" alt="signup 1" />
+          <a class='iframe' href="/trial"><p class="start-with-a-free-lesson nunito-black-hibiscus-24px">
+            <span class="nunito-black-hibiscus-24px">Start With a Free Lesson</span>
+          </p></a>
+          <p class="sign-up-for-a-free-4">
+            <span class="nunito-bold-black-16px">Sign up for a free 40-minute class.<br /></span
+            ><span class="span1-1 nunito-bold-black-16px"
+              >You will receive a assessment and we<br />
+              will answer any questions.</span
+            >
+          </p>
+          <div class="rectangle-11-1"></div>
+          <p class="x2-create-a-learning-plan nunito-black-hibiscus-24px">
+            <span class="nunito-black-hibiscus-24px">2. Create a Learning Plan</span>
+          </p>
+          <p class="choose-from-our-stan nunito-bold-black-16px">
+            <span class="nunito-bold-black-16px"
+              >Choose from our standard curriculum <br />schedule or tailor the learning plan for<br />even greater
+              flexibility.</span
+            >
+          </p>
+          <img class="project-plan-1" src="{{url_for('static', filename='img/project-plan-1-1@2x.png')}}" alt="project-plan 1" />
+          <div class="rectangle-11-2"></div>
+          <div class="x3-begin-your-lessons nunito-black-hibiscus-24px">
+            <span class="nunito-black-hibiscus-24px">3. Begin Your Lessons</span>
+          </div>
+          <p class="book-your-classes-a nunito-bold-black-16px">
+            <span class="nunito-bold-black-16px"
+              >Book your classes, attend all of them, follow<br />the rules and earn 30% cash back<br />at the end of
+              the 3 months!</span
+            >
+          </p>
+          <img class="booking-1" src="{{url_for('static', filename='img/booking-1-1@2x.png')}}" alt="booking 1" />
+          <div class="join-the-challenge-today"><span>Join The Challenge Today!</span></div>
+          <div class="rectangle-21"></div>
+          <div class="x228-second-month nunito-bold-white-20px">
+            <span class="nunito-bold-white-20px">$228 Second Month</span>
+          </div>
+          <div class="x228-third-month nunito-bold-white-20px">
+            <span class="nunito-bold-white-20px">$228 Third Month</span>
+          </div>
+          <img class="rectangle-22" src="{{url_for('static', filename='img/rectangle-22-1@2x.png')}}" alt="Rectangle 22" />
+          <div class="our-program-include"><span>Our program Include:</span></div>
+          <div class="group-14">
+            <div class="price nunito-black-white-24px"><span class="nunito-black-white-24px">$</span></div>
+            <div class="flex-col-4">
+              <h1 class="number"><span>249</span></h1>
+              <div class="due-now"><span>due now</span></div>
+            </div>
+          </div>
+          <img class="icon-check_mark" src="{{url_for('static', filename='img/vector-5-1@2x.png')}}" alt="icon-check_mark" />
+          <img class="icon-check_mark-1" src="{{url_for('static', filename='img/vector-5-1@2x.png')}}" alt="icon-check_mark" />
+          <div class="overlap-group4">
+            <a href="/purchase" target="_blank"><div id="purchase-button-2" class="purchase-now nunito-black-white-36px">
+              <span class="nunito-black-white-36px">Purchase Now</span>
+            </div></a>
+          </div>
+          <div class="rectangle-19"></div>
+          <div class="group-container">
+            <div class="group-17">
+              <div class="group">
+                <img class="icon-check_mark-2" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="x1-hour-lessons-with nunito-black-black-24px">
+                <span class="nunito-black-black-24px">1-Hour Lessons With Any Of Our Private Teachers</span>
+              </p>
+            </div>
+            <div class="group-23">
+              <div class="group">
+                <img class="icon-check_mark-3" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="exclusive-content-at-chido-universidad nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Exclusive Content At Chido Universidad</span>
+              </p>
+            </div>
+            <div class="group-24">
+              <div class="group">
+                <img class="icon-check_mark-4" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="personalized-and-str nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Personalized And Structured Teaching Plan</span>
+              </p>
+            </div>
+            <div class="group-25">
+              <div class="group">
+                <img class="icon-check_mark-5" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="listening-excercises nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Listening Excercises In Slow &amp; Fast Spanish</span>
+              </p>
+            </div>
+            <div class="group-26">
+              <div class="group">
+                <img class="icon-check_mark-6" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="exercises-games-wi nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Exercises &amp; Games With An Automatic Scoring System</span>
+              </p>
+            </div>
+            <div class="group-27">
+              <div class="group">
+                <img class="icon-check_mark-7" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <p class="written-homework-rev nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Written Homework Reviewed By Our Teachers</span>
+              </p>
+            </div>
+            <div class="group-28">
+              <div class="group">
+                <img class="icon-check_mark-8" src="{{url_for('static', filename='img/vector-4-10@2x.png')}}" alt="icon-check_mark" />
+              </div>
+              <div class="weekly-chido-chat-club nunito-black-black-24px">
+                <span class="nunito-black-black-24px">Weekly Chido Chat Club</span>
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-20"></div>
+          <div class="chido-lingo-challenge-earn-30-cashback">
+            <span>ChidoLingo Challenge<br />Earn 30% Cashback</span>
+          </div>
+          <div class="address-1">
+            <span>36 Classes<br />In 3 Months</span>
+          </div>
+          <img class="line-3" src="{{url_for('static', filename='img/line-3-1@2x.png')}}" alt="Line 3" />
+          <img class="artboard-234x-1" src="{{url_for('static', filename='img/artboard-23-4x-1-1@2x.png')}}" alt="Artboard-23@4x 1" />
+        </div>
+        <div class="flex-row-2">
+          <img class="audigfono-600x563" src="{{url_for('static', filename='img/audigfono-600x563-1@2x.png')}}" alt="audigfono-600x563" />
+          <p class="the-most-important-r">
+            <span>The Most Important Rules To<br />Earn </span><span class="span1-2">Cashback</span>
+          </p>
+          <img class="calavera-600x593" src="{{url_for('static', filename='img/calavera-600x593-1@2x.png')}}" alt="calavera-600x593" />
+        </div>
+        <div class="flex-row-3">
+          <img class="finish-flag" src="{{url_for('static', filename='img/finish-flag-1@2x.png')}}" alt="finish-flag" />
+          <img class="attendance-1" src="{{url_for('static', filename='img/attendance-1-150x150-1@2x.png')}}" alt="attendance-1-150x150" />
+        </div>
+        <div class="flex-row-4 nunito-black-hibiscus-24px">
+          <p class="the-3-months-start-a">
+            <span class="nunito-black-hibiscus-24px">The 3 months start after your first lesson</span>
+          </p>
+          <p class="take-lesson-with-dif">
+            <span class="nunito-black-hibiscus-24px"
+              >Take lesson with different teachers to practice different accents</span
+            >
+          </p>
+        </div>
+        <div class="x-container">
+          <img class="attendance-1" src="{{url_for('static', filename='img/attendance-150x150-1@2x.png')}}" alt="attendance-150x150" />
+          <img class="teacher-150x150" src="{{url_for('static', filename='img/teacher-150x150-1@2x.png')}}" alt="teacher-150x150" />
+        </div>
+        <div class="flex-row-5 nunito-black-hibiscus-24px">
+          <p class="attend-all-your-clas">
+            <span class="nunito-black-hibiscus-24px">Attend all your classes before the Challenge Ends</span>
+          </p>
+          <div class="dont-missreschedule-any-lesson">
+            <span class="nunito-black-hibiscus-24px">Don&#39;t Miss/reschedule any lesson</span>
+          </div>
+        </div>
+        <div class="overlap-group11">
+          <img class="chipbook-1" src="{{url_for('static', filename='img/chipbook-1-1@2x.png')}}" alt="Chipbook 1" />
           <img class="wave-1" src="{{url_for('static', filename='img/wave-1-1@2x.png')}}" alt="Wave 1" />
         </div>
       </div>

@@ -2,11 +2,22 @@ import unittest
 import assertion_plugin
 from classesfortests import validate_email, EmailSyntaxError, DateTimeField, Future_Date_Time, Name_Validation
 from wtforms import ValidationError
-
+import importlib
+import pytest
+application = importlib.import_module("flask-app")
 
 
 """Email accounts are critical to our product for both signing up on the promotion and creating an account"""
 """After testing for all the cases, we refactored some of the legacy code to validate emails for our business purpose"""
+
+
+@pytest.fixture
+def client():
+    client = application.app.test_client()
+
+    yield client
+
+    # Check Purchase link exists on top menu on the home pag
 
 
 class MyTestCase(unittest.TestCase, assertion_plugin.Exceptions):
@@ -194,6 +205,90 @@ class MyTestCase(unittest.TestCase, assertion_plugin.Exceptions):
         test_name = 'کرستینه'
         with self.assertRaises(ValueError):
             Name_Validation.validate_name(test_name)
+
+    def setUp(self):
+        self.app=application.app.test_client()
+        # self.app_context = self.app.app_context()
+        # self.app_context.push()
+        application.app.config['WTF_CSRF_ENABLED'] = False
+        application.app.config['SERVER_NAME'] = 'localhost'
+        application.app.config['DEBUG'] = False
+        self.client = application.app.test_client()    # executed after each test
+
+
+    def test_home_page_2(self):
+        response = self.client.get('/purchase')
+        received = response.get_data(as_text=True)
+        self.assertFalse('name given' in received)
+
+    def test_filled_page_2(self):
+        response = self.client.post('/order/1', data={'name': 'Bob'})
+        received = response.get_data(as_text=True)
+        self.assertFalse('entering' in received)
+
+    def register(self, name, email):
+        return self.app.post(
+            '/order/gift',
+            data=dict(name=name, email=email),
+            follow_redirects=False
+        )
+    def test_gift_recipient_form_displays(self):
+        response = self.app.get('/purchase')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Gift Recipient Name', response.data)
+
+    def test_user_order_success_page_displays(self):
+        response = self.app.get('/order/success')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Order completed!', response.data)
+
+    def test_user_order_cancel_page_displays(self):
+        response = self.app.get('/order/cancel')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Order Cancelled!', response.data)
+
+    def test_missing_field_user_registration_error(self):
+        self.app.get('/order/gift', follow_redirects=False)
+        response = self.register('','patkennedy79@gmail.com')
+        self.assertIn(b'Redirecting', response.data)
+
+    def test_user_quiz_displays(self):
+        response = self.app.get('/quiz')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'LEVEL QUIZ', response.data)
+
+
+def test_landing_purchase_link(client):
+    landing = client.get("/")
+    html = landing.data.decode()
+    assert '/purchase' in html
+
+
+def test_product_title(client):
+    landing = client.get("/purchase")
+    html = landing.data.decode()
+    assert 'class="pricing-title"' in html
+
+
+# Check that Order Now button exists on purchase page
+def test_order_button(client):
+    landing = client.get("/purchase")
+    html = landing.data.decode()
+    assert 'type="submit" value="Order Now!">' in html
+
+
+# Check second Purchase button exists on home page
+def test_landing_second_purchase_button(client):
+    landing = client.get("/")
+    html = landing.data.decode()
+    assert '<div id="purchase-button"' in html
+
+
+# Check third Purchase button exists on home page
+def test_landing_third_purchase_button(client):
+    landing = client.get("/")
+    html = landing.data.decode()
+    assert '<div id="purchase-button-2"' in html
 
 
 if __name__ == '__main__':
