@@ -8,9 +8,14 @@ class TestCaseBase(unittest.TestCase):
             raise AssertionError("File does not exist: %s" % str(path))
 
 class TemplateTest(TestCaseBase):
-    def test(self):
+    def test_landing(self):
         path = pl.Path("/workspace/templates/index.html")
         self.assertIsFile(path)
+
+    def test_purchase(self):
+        path = pl.Path("/workspace/templates/purchase.html")
+        self.assertIsFile(path)
+
 
 class StaticTest(TestCaseBase):
     def test(self):
