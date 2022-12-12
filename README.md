@@ -405,7 +405,7 @@
 
 ### Burndown Chart
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%204_Complete.png)
 
 ### Daily Scrums
 > Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
@@ -439,32 +439,32 @@
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
 > 
-> December X, 2022
+> December 8, 2022
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%204_Partial%201.png)
 > 
-> December X, 2022
+> December 12, 2022
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%204_Partial%202.png)
 
 ### Paired / Mobbed Programming
 > There are 4 members on our team and we all participated in Pair Programming and Mob Programming. Below are images from our activity:
 > 
 > Mob Programming
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Mob%20Programming_Sprint%204_Team%20Cuzy.png)
 > 
 > Pair Programming: Yasir and Zhao 
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Zhao.png)
 > 
 > Pair Programming: Yasir and Christina
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Christina.png)
 > 
 > Pair Programming: Yasir and Uriel
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Uriel.png)
 
 ### Test First
 > Our team is building our product test-first. Our team created 32 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
