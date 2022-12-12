@@ -550,7 +550,7 @@
 > 1. Company Owners 
 > 2. Staff/Teachers
 > 3. Customers/Students
-> For this project, we have 3 different types of stakeholders:
+> 
 > See big visible information radiators in PowerPoint Presentation for more details.
 
 ### Sprint Review: Developers Demonstrate Product
