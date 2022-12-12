@@ -414,27 +414,26 @@
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - Yasir:  
-> - Yasir: 
-> - Zhao:  
-> - Zhao: 
-> - Yasir and Zhao: 
-> - Uriel: 
-> - Christina: 
+> - Yasir: Developed BDD and TDD tests  
+> - Yasir: Created the ecommerce functionality
+> - Zhao: Edited the layout of the website based on feedback from stakeholder
+> - Zhao: Collaborated with Yasir to update and push code
+> - Uriel: Sent code to Yasir and Zhao
+> - Christina: Updated product backlog based on feedback from team
 
 ### Daily Scrums - Next 24 Hours 
 > During each of our Daily Scrums, the developers answered the question, "What will you do in the next 24 hours to meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
-> - Yasir: 
-> - Yasir: 
-> - Zhao: 
-> - Zhao: 
-> - Christina and Uriel: 
+> - Yasir: Will create the Spanish language quiz
+> - Yasir: Will link all menu items and then push the code
+> - Zhao: will send code of new changes to Yasir
+> - Zhao: Will edit the working on “Join Mailing List for Exclusive Offers”
+> - Christina and Uriel: Will create information radiators for Sprint Review Presentation
 
 ### Daily Scrums - Impediments 
 > During each of our Daily Scrums, the developers answered the question, "Do you see any impediment that prevents the Developers from meeting the Sprint Goal?" Below is a list of impediments the developers shared during one of our Daily Scrums as well as the corresponding impediment removal plan:
-> - Yasir:   
-> - Yasir:   
-> - Zhao:  
+> - Yasir: Needs to figure out BDD testing and what it entails  
+> - Yasir: Not sure if he knows how to properly embed Stripe into the website  
+> - Zhao: Not sure how to export code in the correct format to Yasir 
 
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
@@ -495,9 +494,8 @@
 > 
 
 ### Sprint Review - Stakeholder
-> One stakeholder attended the Sprint Review. The stakeholder is a ChidoLingo business partner (TBD). Based on feedback from the stakeholder, we revised the Product Backlog. 
+> The Sprint Review is scheduled for 12/12/22. Several stakeholders will be in attendance as we present our product increment and solicit feedback. That feedback will then be added to the Product Backlog for future efforts. 
 > 
-> ![](IMAGE)
 
 ### Continuous Integration System Is Running
 > We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
@@ -538,8 +536,8 @@
 >  Some of the CI screenshots might also be relevant for this section. See all images above.
 
 ### Sprint Retrospective
-> - Our team conducted a Sprint Retrospective on 11/27/22.
-> - One action that we identified that would make our team significantly better is to articulate an MVP for our product. By articulating an MVP, our team will be able to focus its time and efforts on those features so that we don't waste time on work that it not as important or valuable.  
+> - Our team conducted a Sprint Retrospective on 12/11/22.
+> - One action that we identified that would make our team significantly better is to TBD.  
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
