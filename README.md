@@ -549,7 +549,8 @@
 > There are three primary stakeholder categories: 
 > 1. Company Owners 
 > 2. Staff/Teachers
-> 3. Customers/Students> For this project, we have 3 different types of stakeholders:
+> 3. Customers/Students
+> For this project, we have 3 different types of stakeholders:
 > See big visible information radiators in PowerPoint Presentation for more details.
 
 ### Sprint Review: Developers Demonstrate Product
@@ -567,6 +568,7 @@
 
 ### Sprint Review: Product Owner Solicits Feedback
 > Our PO will solicit feedback from the stakeholders and ask what they would like to see in the next product increment. We will revise our Product Backlog based on their feedback.
+> 
 > SCRIPT: We’d like to thank you, our stakeholders, for attending our Sprint Review. We hope we were able to clearly demonstrate the product features that we’ve added. Now that you’ve seen what the website can currently do, what would you like to see in the next product increment?
 
 ### Sprint Review: Product Owner Shares Future Plans
