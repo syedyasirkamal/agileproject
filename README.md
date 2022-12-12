@@ -410,7 +410,7 @@
 ### Daily Scrums
 > Our team performed multiple Daily Scrums. Below is a screenshot from one of our daily scrums as evidence.
 > 
-> IMAGE
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Daily%20Scrum_Sprint%204.png)
 
 ### Daily Scrums - Last 24 Hours
 > During each of our Daily Scrums, the developers answered the question, "What did you do in the last 24 hours that helped you meet the Sprint Goal?" Below is a list of activities the developers shared during one of our Daily Scrums:
@@ -486,11 +486,11 @@
 > 
 > Below is evidence of the working software (main site, form, database, email notification):
 > 
-> ![](MAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_1.jpg)
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_2.jpg)
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_3.jpg)
 > 
 
 ### Sprint Review - Stakeholder
