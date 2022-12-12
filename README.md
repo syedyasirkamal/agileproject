@@ -536,21 +536,21 @@
 > Our team Scrum Master will facilitate the Sprint Review as needed. 
 
 ### Sprint Review: Product Owner States Purpose and Welcomes Stakeholders
-> Hello everyone! My name is Uriel, and I'm the Product Owner for Team CUZY, including Zhao, Christina and Yasir. Our Sprint Review today aims to review the work we’ve completed, solicit your feedback, and identify whether any changes are needed. We are so grateful that you’re here with us and we appreciate your participation. Once we complete our demo, we would like to know your feedback for improving our product.
+> SCRIPT: Hello everyone! My name is Uriel, and I'm the Product Owner for Team CUZY, including Zhao, Christina and Yasir. Our Sprint Review today aims to review the work we’ve completed, solicit your feedback, and identify whether any changes are needed. We are so grateful that you’re here with us and we appreciate your participation. Once we complete our demo, we would like to know your feedback for improving our product.
 
 ### Sprint Review: Product Owner Shares Far Vision and Near Vision
 > As you know, ChidoLingo is a company that offers private, 1-on-1 Spanish classes through an online platform. The company connects qualified native Spanish teachers with English speakers in North America. 
-
-The Far Vision is: To teach the world’s Spanish language learners how to speak like a native
-
-Our Near Vision is a step towards accomplishing our Far Vision: Create the first large-scale promotional campaign in order to increase the number of customers and to test the effectiveness of a ”rebate pricing” promotion.
+> 
+> The Far Vision is: To teach the world’s Spanish language learners how to speak like a native
+> 
+> Our Near Vision is a step towards accomplishing our Far Vision: Create the first large-scale promotional campaign in order to increase the number of customers and to test the effectiveness of a ”rebate pricing” promotion.
 
 ### Sprint Review: Product Owner Describes Stakeholders and User Personas 
-> For this project, we have 3 different types of stakeholders:
-Company Owners - Ryan
-Teachers - Flor
-Students - Terri 
-> See big visible information radiators in PowerPoint Presentation
+> There are three primary stakeholder categories: 
+1. Company Owners 
+2. Staff/Teachers
+3. Customers/Students> For this project, we have 3 different types of stakeholders:
+> See big visible information radiators in PowerPoint Presentation for more details.
 
 ### Sprint Review: Developers Demonstrate Product
 > Our developers will conduct an in-class demo of the product increment during Sprint Review on 12/12/22.
@@ -564,12 +564,22 @@ Students - Terri
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_2.jpg)
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_3.jpg)
-> 
 
-### Sprint Review - Stakeholder
-> The Sprint Review is scheduled for 12/12/22. Several stakeholders will be in attendance as we present our product increment and solicit feedback. That feedback will then be added to the Product Backlog for future efforts. 
-> 
+### Sprint Review: Product Owner Solicits Feedback
+> Our PO will solicit feedback from the stakeholders and ask what they would like to see in the next product increment. We will revise our Product Backlog based on their feedback.
+> SCRIPT: We’d like to thank you, our stakeholders, for attending our Sprint Review. We hope we were able to clearly demonstrate the product features that we’ve added. Now that you’ve seen what the website can currently do, what would you like to see in the next product increment?
 
+### Sprint Review: Product Owner Shares Future Plans
+> Our PO will share future plans for our product.
+1. Make the website device-responsive to make it accessible anywhere
+2. Add an option to translate the page into multiple languages so that it’s more inclusive
+3. Improve the scheduling feature so that students can have more control over scheduling their classes
+
+### Sprint Review: Product Owner Shares Forecast of Next Sprint
+> Our PO will share our plans for the next sprint.
+
+### Sprint Review: Team Rehearsal
+> Our team has rehearsed our Sprint Review multiple times before the actual Sprint Review.
 
 ### True User Stories
 > All of the PBIs in our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
