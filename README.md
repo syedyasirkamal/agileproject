@@ -471,11 +471,11 @@
 > TDD (46 tests): https://github.com/syedyasirkamal/agileproject/blob/main/app/test/tests_chidolingo_main.py
 > BDD (1 feature, 1 scenario, 3 steps): https://github.com/syedyasirkamal/agileproject/tree/main/features
 > 
-> Below is a screenshot of the BDD/A-TDD test in the test suite and it passes.
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/BDDTest.png
+> Below is a screenshot of the BDD/A-TDD test in the test suite and it passes (we used behave to conduct test).
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/BDDTest.png)
 > 
 > Below is a screenshot of micro-scale unit tests in the test suite and they all pass.
-> https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/46-TESTS.png
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/46-TESTS.png)
 
 ### Continuous Integration System Is Running
 > We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
