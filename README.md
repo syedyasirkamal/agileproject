@@ -547,9 +547,9 @@
 
 ### Sprint Review: Product Owner Describes Stakeholders and User Personas 
 > There are three primary stakeholder categories: 
-1. Company Owners 
-2. Staff/Teachers
-3. Customers/Students> For this project, we have 3 different types of stakeholders:
+> 1. Company Owners 
+> 2. Staff/Teachers
+> 3. Customers/Students> For this project, we have 3 different types of stakeholders:
 > See big visible information radiators in PowerPoint Presentation for more details.
 
 ### Sprint Review: Developers Demonstrate Product
@@ -571,9 +571,9 @@
 
 ### Sprint Review: Product Owner Shares Future Plans
 > Our PO will share future plans for our product.
-1. Make the website device-responsive to make it accessible anywhere
-2. Add an option to translate the page into multiple languages so that it’s more inclusive
-3. Improve the scheduling feature so that students can have more control over scheduling their classes
+> 1. Make the website device-responsive to make it accessible anywhere
+> 2. Add an option to translate the page into multiple languages so that it’s more inclusive
+> 3. Improve the scheduling feature so that students can have more control over scheduling their classes
 
 ### Sprint Review: Product Owner Shares Forecast of Next Sprint
 > Our PO will share our plans for the next sprint.
