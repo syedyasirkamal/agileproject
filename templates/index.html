@@ -11,9 +11,11 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/web-code.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styleguide.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/globals.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/timer.css')}}">
       <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/colorbox.css')}}">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script src="{{url_for('static', filename='scripts/jquery.colorbox.js')}}"></script>
+      <script src="{{url_for('static', filename='scripts/timer.js')}}"></script>
       <script>
 			$(document).ready(function(){
 				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
@@ -46,6 +48,21 @@
           </div>
             <a href="/"><div class="place"><span class="nunito-black-eerie-black-20px">Home</span></div></a>
         </div>
+
+          <div class="flex-col-timer">
+          <div class="flex-row-timer">
+              <div class="container-timer">
+  <h1 id="headline" class="gold-timer">Promotion ends 31 Dec! Countdown to deadline:</h1>
+  <div id="countdown" class="white-timer">
+    <ul>
+      <li class="timer"><span id="days"></span>days</li>
+      <li class="timer"><span id="hours"></span>Hours</li>
+      <li class="timer"><span id="minutes"></span>Minutes</li>
+      <li class="timer"><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+</div>
+          </div></div>
         <div class="flex-col">
           <div class="flex-row">
             <div class="flex-col-1">
@@ -58,6 +75,7 @@
               <img class="chip-1" src="{{url_for('static', filename='img/chip-1-1@2x.png')}}" alt="Chip 1" />
             </div>
             <div class="flex-col-2">
+
               <p class="title nunito-black-white-64px">
                 <span class="span-1">Improve your Spanish<br /></span
                 ><span class="nunito-black-white-64px">for 3 months and </span
@@ -177,17 +195,17 @@
           <div class="join-the-challenge-today"><span>Join The Challenge Today!</span></div>
           <div class="rectangle-21"></div>
           <div class="x228-second-month nunito-bold-white-20px">
-            <span class="nunito-bold-white-20px">$228 Second Month</span>
+            <span class="nunito-bold-white-20px">$280 Second Month</span>
           </div>
           <div class="x228-third-month nunito-bold-white-20px">
-            <span class="nunito-bold-white-20px">$228 Third Month</span>
+            <span class="nunito-bold-white-20px">$280 Third Month</span>
           </div>
           <img class="rectangle-22" src="{{url_for('static', filename='img/rectangle-22-1@2x.png')}}" alt="Rectangle 22" />
           <div class="our-program-include"><span>Our program Include:</span></div>
           <div class="group-14">
             <div class="price nunito-black-white-24px"><span class="nunito-black-white-24px">$</span></div>
             <div class="flex-col-4">
-              <h1 class="number"><span>249</span></h1>
+              <h1 class="number"><span>280</span></h1>
               <div class="due-now"><span>due now</span></div>
             </div>
           </div>

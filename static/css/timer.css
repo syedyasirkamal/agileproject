@@ -1,0 +1,42 @@
+
+
+.container-timer {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h1-timer {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+.timer{
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: .5em 1em;
+  text-transform: uppercase;
+}
+
+.timer span {
+  display: block;
+  font-size: 3.5rem;
+}
+
+.gold-timer {
+    color: var(--yellow-orange);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 900;
+}
+
+.white-timer {
+    color: var(--white);
+    font-family: var(--font-family-nunito);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+}

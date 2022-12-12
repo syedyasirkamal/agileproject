@@ -177,7 +177,7 @@ var quiz = {
     setTimeout(() => {
       if (quiz.now < quiz.data.length) { quiz.draw(); }
       else {
-        quiz.hAns.innerHTML = "Book your trial <a href='/trial'>here</a> or Purchase <a href='/purchase'>now</a>";
+        quiz.hAns.innerHTML = "Book your trial <a href='/trial'>here</a> or Purchase <a href='/purchase' target=\"_blank\">now</a>";
         score_message=`You have answered ${quiz.score} of ${quiz.data.length} correctly.`
         if (quiz.score <=3){
           quiz.hQn.innerHTML = score_message + " You seem to be at a lower elementary level";
