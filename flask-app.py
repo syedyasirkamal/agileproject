@@ -63,7 +63,7 @@ products = {
     'promo': {
         'title': 'Buy for yourself',
         'name': 'ChidoLingo Promo Purchase',
-        'price': 72000,
+        'price': 28000,
         'discprice': 504,
         'per': 'session*',
         'desc': '36 private lessons',
