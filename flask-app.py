@@ -59,6 +59,7 @@ mail = Mail(app)
 #         Checkout
 ###############################################
 
+
 products = {
     'promo': {
         'title': 'Buy for yourself',
