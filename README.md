@@ -466,57 +466,52 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Uriel.png)
 
 ### Test-Driven Development
-> Our team is building our product test-first. Our team created at least 1 BDD/A-TDD test and over 30 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
-> 
-> URL
-> 
-> All files related to tests can be found here: 
-> 
-> https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
+> Our team is building our product test-first. Our team created at least 1 BDD/A-TDD test and over 30 micro-scale unit tests in the test suite and they all pass. The files of tests and explanations can be found at this URL: 
+>
+> TDD (46 tests): https://github.com/syedyasirkamal/agileproject/blob/main/app/test/tests_chidolingo_main.py
+> BDD (1 feature, 1 scenario, 3 steps): https://github.com/syedyasirkamal/agileproject/tree/main/features
 > 
 > Below is a screenshot of the BDD/A-TDD test in the test suite and it passes.
-> 
-> IMAGE
+> https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/BDDTest.png
 > 
 > Below is a screenshot of micro-scale unit tests in the test suite and they all pass.
-> 
-> IMAGE
+> https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/46-TESTS.png
 
 ### Continuous Integration System Is Running
 > We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint2/CI-CD2.jpg)
 > 
 > We only work on the main/trunk/master together—there are no long-lived code branches as evidenced below: 
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/Untitled-5.png)
 > 
 > The CI system automatically builds our code every time we push to main/trunk/master as evidenced below:
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/build-success.png)
+> ![]{https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/git-build.png)
 >  
 > The CI system automatically executes all our tests every time it builds the code as evidenced below: 
 > 
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/BDD-TDD-tests.png)
 
 ### Continuous Delivery System Is Running
 >  We have a Continuous Delivery system running. We have provided evidence that our CD system exists and behaves properly (refer to images and descriptions below).
 >  
->  ![](IMAGE)
+>  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/CD-3.png)
 >  
 >  When the build is "green", the CD system deploys our software to a production environment ("Production") as evidenced below:
 >   
->  ![](IMAGE)
->
->  ![](IMAGE)
+>  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/deploy-success.png)
+>  ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/CD.png)
 >
 >  When the build is "red", the CD system doesn't alter Production as evidenced below:
 >  
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/CD-2.png)
 >  
 > The CD system executes additional tests of our software in Production to ensure Production is up and running successfully after deployment as evidenced below:
 >   
-> ![](IMAGE)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/deploy-success.png)
 >  
 >  Some of the CI screenshots might also be relevant for this section. See all images above.
 
