@@ -438,11 +438,11 @@
 ### Burndown Chart - Updates 
 > During each of our Daily Scrums, we updated the Burndown Chart. Below are two examples of the Burndown Chart being updated. 
 > 
-> December 8, 2022
+> December 3, 2022
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%204_Partial%201.png)
 > 
-> December 12, 2022
+> December 7, 2022
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Burndown%20Chart_Sprint%204_Partial%202.png)
 
@@ -465,8 +465,8 @@
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Uriel.png)
 
-### Test First
-> Our team is building our product test-first. Our team created 32 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
+### Test-Driven Development
+> Our team is building our product test-first. Our team created at least 1 BDD/A-TDD test and over 30 micro-scale unit tests in the test suite and they all pass. The list of tests and explanations can be found at this URL: 
 > 
 > URL
 > 
@@ -474,28 +474,13 @@
 > 
 > https://github.com/syedyasirkamal/agileproject/tree/main/Sprint-1/tests
 > 
-> Below is a screenshot of 32 micro-scale unit tests in the test suite and they all pass.
+> Below is a screenshot of the BDD/A-TDD test in the test suite and it passes.
 > 
 > IMAGE
-
-### Sprint Review
-> Our team conducted a Sprint Review on X. We invited a stakeholder (TBD) to attend the meeting with us. During the meeting, Uriel Benitez demo'd the product for the stakeholder. 
-
-### Working Software
-> Our product increment is working software. The working software is a new website created for the purpose of showing promotional offers from ChidoLingo. DESCRIPTION. The working software is publicly accessible and can be found here: http://chidopromos.com/
 > 
-> Below is evidence of the working software (main site, form, database, email notification):
+> Below is a screenshot of micro-scale unit tests in the test suite and they all pass.
 > 
-> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_1.jpg)
-> 
-> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_2.jpg)
-> 
-> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_3.jpg)
-> 
-
-### Sprint Review - Stakeholder
-> The Sprint Review is scheduled for 12/12/22. Several stakeholders will be in attendance as we present our product increment and solicit feedback. That feedback will then be added to the Product Backlog for future efforts. 
-> 
+> IMAGE
 
 ### Continuous Integration System Is Running
 > We have a Continuous Integration system running. We have provided evidence that our CI system exists and behaves properly (refer to images and descriptions below).
@@ -540,6 +525,51 @@
 > - One action that we identified that would make our team significantly better is to TBD.  
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
+
+### Sprint Review: In-Class
+> Our team will conduct an in-class Sprint Review on 12/12/22.
+
+### Sprint Review: 10 Minutes
+> Our in-class Sprint Review will not exceed 10 minutes.
+
+### Scrum Master Faciliates
+> Our team Scrum Master will facilitate the Sprint Review as needed. 
+
+### Sprint Review: Product Owner States Purpose and Welcomes Stakeholders
+> Hello everyone! My name is Uriel, and I'm the Product Owner for Team CUZY, including Zhao, Christina and Yasir. Our Sprint Review today aims to review the work we’ve completed, solicit your feedback, and identify whether any changes are needed. We are so grateful that you’re here with us and we appreciate your participation. Once we complete our demo, we would like to know your feedback for improving our product.
+
+### Sprint Review: Product Owner Shares Far Vision and Near Vision
+> As you know, ChidoLingo is a company that offers private, 1-on-1 Spanish classes through an online platform. The company connects qualified native Spanish teachers with English speakers in North America. 
+
+The Far Vision is: To teach the world’s Spanish language learners how to speak like a native
+
+Our Near Vision is a step towards accomplishing our Far Vision: Create the first large-scale promotional campaign in order to increase the number of customers and to test the effectiveness of a ”rebate pricing” promotion.
+
+### Sprint Review: Product Owner Describes Stakeholders and User Personas 
+> For this project, we have 3 different types of stakeholders:
+Company Owners - Ryan
+Teachers - Flor
+Students - Terri 
+> See big visible information radiators in PowerPoint Presentation
+
+### Sprint Review: Developers Demonstrate Product
+> Our developers will conduct an in-class demo of the product increment during Sprint Review on 12/12/22.
+> Big information radiators (Sprint Backlog and User Stories) will be used to faciliate the stakeholders' ability to follow along.
+> Our Product Increment is Working Software. The working software is publicly accessible and can be found here: http://chidopromos.com/
+> 
+> Below is evidence of the working software (landing page, product selection page, and Spanish quiz):
+> 
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_1.jpg)
+> 
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_2.jpg)
+> 
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Working%20Software_Sprint%204_3.jpg)
+> 
+
+### Sprint Review - Stakeholder
+> The Sprint Review is scheduled for 12/12/22. Several stakeholders will be in attendance as we present our product increment and solicit feedback. That feedback will then be added to the Product Backlog for future efforts. 
+> 
+
 
 ### True User Stories
 > All of the PBIs in our Product Backlog, including the current Sprint Backlog, are True User Stories. They can be found here: https://trello.com/b/KLDzl54E/cuzy-kanban
