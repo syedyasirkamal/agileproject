@@ -466,7 +466,7 @@
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/Pair%20Programming_Sprint%204_Yasir%20and%20Uriel.png)
 
 ### Test-Driven Development
-> Our team is building our product test-first. Our team created at least 1 BDD/A-TDD test and over 30 micro-scale unit tests in the test suite and they all pass. The files of tests and explanations can be found at this URL: 
+> Our team is building our product test-first. Our team created at least 1 BDD/A-TDD test and 46 micro-scale unit tests in the test suite and they all pass. The files of tests and explanations can be found at this URL: 
 >
 > TDD (46 tests): https://github.com/syedyasirkamal/agileproject/blob/main/app/test/tests_chidolingo_main.py
 > BDD (1 feature, 1 scenario, 3 steps): https://github.com/syedyasirkamal/agileproject/tree/main/features
@@ -517,7 +517,7 @@
 
 ### Sprint Retrospective
 > - Our team conducted a Sprint Retrospective on 12/11/22.
-> - One action that we identified that would make our team significantly better is to TBD.  
+> - One action that we identified that would make our team significantly better is to focus on developing T-Shaped team members who are skilled in each other's competencies.  
 > - Our action plan is articulated as a PBI, including User Acceptance Criteria.
 > - This new PBI has been added to the top of the Product Backlog, ready to be pulled into the next Sprint.
 
