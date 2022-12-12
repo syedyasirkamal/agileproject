@@ -489,7 +489,7 @@
 > The CI system automatically builds our code every time we push to main/trunk/master as evidenced below:
 > 
 > ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/build-success.png)
-> ![]{https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/git-build.png)
+> ![](https://github.com/syedyasirkamal/agileproject/blob/main/images/sprint3/git-build.png)
 >  
 > The CI system automatically executes all our tests every time it builds the code as evidenced below: 
 > 
