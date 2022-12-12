@@ -3,7 +3,6 @@
 import sys
 import re
 
-import pytest as pytest
 import unicodedata
 import dns.resolver
 import dns.exception

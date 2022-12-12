@@ -257,11 +257,6 @@ class MyTestCase(unittest.TestCase, assertion_plugin.Exceptions):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'LEVEL QUIZ', response.data)
 
-    def test_user_quiz_displays(self):
-        response = self.app.get('/quiz')
-        self.assertEqual(response.status_code, 200)
-        self.assertIn(b'LEVEL QUIZ', response.data)
-
     def test_landing_purchase_link(self):
         landing = self.app.get("/")
         html = landing.data.decode()
@@ -293,6 +288,18 @@ class MyTestCase(unittest.TestCase, assertion_plugin.Exceptions):
         landing = self.app.get("/")
         html = landing.data.decode()
         assert '<div id="purchase-button-2"' in html
+
+# Check HomePage button exists on Order Success page
+    def test_success_homepage_button(self):
+        landing = self.app.get("/order/success")
+        html = landing.data.decode()
+        assert '<div id="homepage-button"' in html
+
+# Check HomePage button exists on Order Cancel page
+    def test_cancel_homepage_button(self):
+        landing = self.app.get("/order/cancel")
+        html = landing.data.decode()
+        assert '<div id="homepage-button"' in html
 
 
 if __name__ == '__main__':
